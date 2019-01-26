@@ -30,6 +30,8 @@
 		D6DE760B21FBF3A000D0D022 /* GHView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE760A21FBF3A000D0D022 /* GHView.m */; };
 		D6DE760F21FC125500D0D022 /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE760E21FC125500D0D022 /* UIView+Category.m */; };
 		D6DE761021FC1E5900D0D022 /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE760E21FC125500D0D022 /* UIView+Category.m */; };
+		D6DE761421FC544A00D0D022 /* UILabel+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE761321FC544A00D0D022 /* UILabel+Category.m */; };
+		D6DE761521FC5D4300D0D022 /* UILabel+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE761321FC544A00D0D022 /* UILabel+Category.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +75,8 @@
 		D6DE760A21FBF3A000D0D022 /* GHView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHView.m; sourceTree = "<group>"; };
 		D6DE760D21FC125500D0D022 /* UIView+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
 		D6DE760E21FC125500D0D022 /* UIView+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
+		D6DE761221FC544A00D0D022 /* UILabel+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+Category.h"; sourceTree = "<group>"; };
+		D6DE761321FC544A00D0D022 /* UILabel+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Category.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +212,8 @@
 			children = (
 				D6DE760D21FC125500D0D022 /* UIView+Category.h */,
 				D6DE760E21FC125500D0D022 /* UIView+Category.m */,
+				D6DE761221FC544A00D0D022 /* UILabel+Category.h */,
+				D6DE761321FC544A00D0D022 /* UILabel+Category.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -513,6 +519,7 @@
 				D6DE760B21FBF3A000D0D022 /* GHView.m in Sources */,
 				D6DE75E221FBEF5F00D0D022 /* main.m in Sources */,
 				D6DE761021FC1E5900D0D022 /* UIView+Category.m in Sources */,
+				D6DE761521FC5D4300D0D022 /* UILabel+Category.m in Sources */,
 				D6DE75D421FBEF5E00D0D022 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -524,6 +531,7 @@
 				D6DE75F221FBF2C200D0D022 /* ViewController.m in Sources */,
 				D6DE75FD21FBF2C300D0D022 /* main.m in Sources */,
 				D6DE760F21FC125500D0D022 /* UIView+Category.m in Sources */,
+				D6DE761421FC544A00D0D022 /* UILabel+Category.m in Sources */,
 				D6DE75EF21FBF2C200D0D022 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

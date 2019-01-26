@@ -19,10 +19,7 @@
     [super viewDidLoad];
     
     GHView *view = [[GHView alloc]initWithFrame:CGRectMake(100, 100, 100, 100)];
-    view.changeFrameBlock = ^{
-        NSLog(@"1");
-    };
-    view.backgroundColor = [UIColor blueColor];
+ 
     [self.view addSubview:view];
 }
 

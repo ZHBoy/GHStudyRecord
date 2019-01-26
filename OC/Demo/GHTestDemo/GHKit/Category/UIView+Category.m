@@ -25,14 +25,8 @@ static NSString *GHActionKey = @"GHActionKey";
     self.layer.shadowOffset = CGSizeMake(10, 10);
     self.layer.shadowRadius = 10;
     
-//    // 任意圆角
-//    CGPathRef path = [UIBezierPath bezierPathWithRoundedRect:self.bounds
-//                                           byRoundingCorners:UIRectCornerTopLeft
-//                                                 cornerRadii:CGSizeMake(40, 40)].CGPath;
-//    CAShapeLayer *lay = [CAShapeLayer layer];
-//    lay.path = path;
-//    self.layer.mask = lay;
 }
+
 /**
  快速构建view类方法
  
@@ -53,7 +47,6 @@ static NSString *GHActionKey = @"GHActionKey";
  @return view
  */
 - (UIView *)gh_belongsView {
-    NSLog(@"superview%@",self.superview);
     return self.superview;
 }
 
@@ -65,14 +58,14 @@ static NSString *GHActionKey = @"GHActionKey";
 
 - (UIViewController *)gh_belongsVc {
     
-    for (UIView *next = self; next; next = next.superview) {
+    for (UIView *next = [self superview]; next; next = next.superview) {
         UIResponder *nextResponder = [next nextResponder];
-        if ([nextResponder isKindOfClass:[UIViewController class]]) {
-            
-            return (UIViewController *)nextResponder;
+        if ([nextResponder isKindOfClass:[UIViewController  class]]) {
+            return (UIViewController*)nextResponder;
         }
     }
     return nil;
+
 }
 /**
  找到当前显示的viewController
@@ -90,16 +83,13 @@ static NSString *GHActionKey = @"GHActionKey";
         
         UINavigationController *nav = ((UITabBarController *)controller).selectedViewController;
         return [nav.viewControllers lastObject];
-    }
-    else if ([controller isKindOfClass:[UINavigationController class]]) {
+    } else if ([controller isKindOfClass:[UINavigationController class]]) {
         
         return [((UINavigationController *)controller).viewControllers lastObject];
-    }
-    else if ([controller isKindOfClass:[UIViewController class]]) {
+    } else if ([controller isKindOfClass:[UIViewController class]]) {
         
         return controller;
-    }
-    else {
+    } else {
         
         return nil;
     }
