@@ -10,8 +10,10 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+typedef void(^GHViewFrameBlock)(void);
 @interface GHView : UIView
 
+@property (nonatomic , copy) GHViewFrameBlock changeFrameBlock;
 @end
 
 NS_ASSUME_NONNULL_END
