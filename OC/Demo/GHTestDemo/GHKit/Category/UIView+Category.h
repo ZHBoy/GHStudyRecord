@@ -14,7 +14,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 typedef void(^GHActionBlock)(UIView *view);
 
-
+/**
+ 添加阴影
+ */
+- (void)gh_addShadow;
 /**
  快速构建view类方法
 

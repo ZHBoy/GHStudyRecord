@@ -28,7 +28,6 @@
     [self.testView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.right.top.equalTo(self);
         make.height.equalTo(@50);
-
     }];
 }
 
@@ -42,6 +41,7 @@
     if (_testView == nil) {
         _testView = [[UIView alloc]init];
         _testView = [UIView gh_creatViewWithFrame:CGRectZero color:[UIColor redColor]];
+        [_testView gh_addShadow];
     }
     return _testView;
 }
