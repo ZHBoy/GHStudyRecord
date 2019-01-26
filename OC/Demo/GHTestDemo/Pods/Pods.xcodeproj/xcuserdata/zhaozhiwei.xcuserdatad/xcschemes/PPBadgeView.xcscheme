@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EFB1DE36B362F72CF561478F26E03D73"
+               BlueprintIdentifier = "353A1A0C47A0D4052D68F6A3360D039D"
                BlueprintName = "PPBadgeView"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libPPBadgeView.a">
+               BuildableName = "PPBadgeView.framework">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

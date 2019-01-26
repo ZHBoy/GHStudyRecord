@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9EADD1C229D97996BB2AD5E5 /* libPods-GHTestDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F25BB96DB92AC7256C064B /* libPods-GHTestDemo.a */; };
+		CA12B7C31E622C95E10DDC8B /* Pods_GHTestDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E87F29714C28832D5B984B /* Pods_GHTestDemo.framework */; };
+		D2268584D77874981DCA2F0A /* Pods_GHMasonryDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 894711426C04CCEE3AE3DEF6 /* Pods_GHMasonryDemo.framework */; };
 		D6DE758C21FBE97600D0D022 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE758B21FBE97600D0D022 /* AppDelegate.m */; };
 		D6DE758F21FBE97600D0D022 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE758E21FBE97600D0D022 /* ViewController.m */; };
 		D6DE759221FBE97600D0D022 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6DE759021FBE97600D0D022 /* Main.storyboard */; };
@@ -20,12 +21,22 @@
 		D6DE75DC21FBEF5F00D0D022 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6DE75DB21FBEF5F00D0D022 /* Assets.xcassets */; };
 		D6DE75DF21FBEF5F00D0D022 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6DE75DD21FBEF5F00D0D022 /* LaunchScreen.storyboard */; };
 		D6DE75E221FBEF5F00D0D022 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE75E121FBEF5F00D0D022 /* main.m */; };
+		D6DE75EF21FBF2C200D0D022 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE75EE21FBF2C200D0D022 /* AppDelegate.m */; };
+		D6DE75F221FBF2C200D0D022 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE75F121FBF2C200D0D022 /* ViewController.m */; };
+		D6DE75F521FBF2C200D0D022 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6DE75F321FBF2C200D0D022 /* Main.storyboard */; };
+		D6DE75F721FBF2C300D0D022 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6DE75F621FBF2C300D0D022 /* Assets.xcassets */; };
+		D6DE75FA21FBF2C300D0D022 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6DE75F821FBF2C300D0D022 /* LaunchScreen.storyboard */; };
+		D6DE75FD21FBF2C300D0D022 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE75FC21FBF2C300D0D022 /* main.m */; };
+		D6DE760B21FBF3A000D0D022 /* GHView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE760A21FBF3A000D0D022 /* GHView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		39F25BB96DB92AC7256C064B /* libPods-GHTestDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GHTestDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		894711426C04CCEE3AE3DEF6 /* Pods_GHMasonryDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GHMasonryDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F46ACA375F4FD75DA624DBB /* Pods-GHMasonryDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHMasonryDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GHMasonryDemo/Pods-GHMasonryDemo.release.xcconfig"; sourceTree = "<group>"; };
 		C3A6B8D1F7173F3A4143F685 /* Pods-GHTestDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHTestDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GHTestDemo/Pods-GHTestDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C4E87F29714C28832D5B984B /* Pods_GHTestDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GHTestDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB20EAE927560FD4309A206 /* Pods-GHTestDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHTestDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GHTestDemo/Pods-GHTestDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D4B5C398CC8E9CC320AC6B21 /* Pods-GHMasonryDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHMasonryDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GHMasonryDemo/Pods-GHMasonryDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		D6DE758721FBE97600D0D022 /* GHTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6DE758A21FBE97600D0D022 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D6DE758B21FBE97600D0D022 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -46,6 +57,18 @@
 		D6DE75DE21FBEF5F00D0D022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6DE75E021FBEF5F00D0D022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6DE75E121FBEF5F00D0D022 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6DE75EB21FBF2C200D0D022 /* GHKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6DE75ED21FBF2C200D0D022 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D6DE75EE21FBF2C200D0D022 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D6DE75F021FBF2C200D0D022 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D6DE75F121FBF2C200D0D022 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D6DE75F421FBF2C200D0D022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6DE75F621FBF2C300D0D022 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6DE75F921FBF2C300D0D022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6DE75FB21FBF2C300D0D022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6DE75FC21FBF2C300D0D022 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6DE760921FBF3A000D0D022 /* GHView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHView.h; sourceTree = "<group>"; };
+		D6DE760A21FBF3A000D0D022 /* GHView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,11 +76,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EADD1C229D97996BB2AD5E5 /* libPods-GHTestDemo.a in Frameworks */,
+				CA12B7C31E622C95E10DDC8B /* Pods_GHTestDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D6DE75CD21FBEF5E00D0D022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2268584D77874981DCA2F0A /* Pods_GHMasonryDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6DE75E821FBF2C200D0D022 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,6 +103,8 @@
 			children = (
 				CBB20EAE927560FD4309A206 /* Pods-GHTestDemo.debug.xcconfig */,
 				C3A6B8D1F7173F3A4143F685 /* Pods-GHTestDemo.release.xcconfig */,
+				D4B5C398CC8E9CC320AC6B21 /* Pods-GHMasonryDemo.debug.xcconfig */,
+				8F46ACA375F4FD75DA624DBB /* Pods-GHMasonryDemo.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -79,7 +112,8 @@
 		C8FB006731FE65C5C41E0F4A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				39F25BB96DB92AC7256C064B /* libPods-GHTestDemo.a */,
+				894711426C04CCEE3AE3DEF6 /* Pods_GHMasonryDemo.framework */,
+				C4E87F29714C28832D5B984B /* Pods_GHTestDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -89,6 +123,7 @@
 			children = (
 				D6DE758921FBE97600D0D022 /* GHTestDemo */,
 				D6DE75D121FBEF5E00D0D022 /* GHMasonryDemo */,
+				D6DE75EC21FBF2C200D0D022 /* GHKit */,
 				D6DE758821FBE97600D0D022 /* Products */,
 				1D1CF2FF7F8A3F9D049ECA9E /* Pods */,
 				C8FB006731FE65C5C41E0F4A /* Frameworks */,
@@ -100,6 +135,7 @@
 			children = (
 				D6DE758721FBE97600D0D022 /* GHTestDemo.app */,
 				D6DE75D021FBEF5E00D0D022 /* GHMasonryDemo.app */,
+				D6DE75EB21FBF2C200D0D022 /* GHKit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,6 +159,7 @@
 		D6DE75D121FBEF5E00D0D022 /* GHMasonryDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D6DE760821FBF39800D0D022 /* GHView */,
 				D6DE75D221FBEF5E00D0D022 /* AppDelegate.h */,
 				D6DE75D321FBEF5E00D0D022 /* AppDelegate.m */,
 				D6DE75D521FBEF5E00D0D022 /* ViewController.h */,
@@ -136,6 +173,31 @@
 			path = GHMasonryDemo;
 			sourceTree = "<group>";
 		};
+		D6DE75EC21FBF2C200D0D022 /* GHKit */ = {
+			isa = PBXGroup;
+			children = (
+				D6DE75ED21FBF2C200D0D022 /* AppDelegate.h */,
+				D6DE75EE21FBF2C200D0D022 /* AppDelegate.m */,
+				D6DE75F021FBF2C200D0D022 /* ViewController.h */,
+				D6DE75F121FBF2C200D0D022 /* ViewController.m */,
+				D6DE75F321FBF2C200D0D022 /* Main.storyboard */,
+				D6DE75F621FBF2C300D0D022 /* Assets.xcassets */,
+				D6DE75F821FBF2C300D0D022 /* LaunchScreen.storyboard */,
+				D6DE75FB21FBF2C300D0D022 /* Info.plist */,
+				D6DE75FC21FBF2C300D0D022 /* main.m */,
+			);
+			path = GHKit;
+			sourceTree = "<group>";
+		};
+		D6DE760821FBF39800D0D022 /* GHView */ = {
+			isa = PBXGroup;
+			children = (
+				D6DE760921FBF3A000D0D022 /* GHView.h */,
+				D6DE760A21FBF3A000D0D022 /* GHView.m */,
+			);
+			path = GHView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,7 +209,7 @@
 				D6DE758321FBE97600D0D022 /* Sources */,
 				D6DE758421FBE97600D0D022 /* Frameworks */,
 				D6DE758521FBE97600D0D022 /* Resources */,
-				E7F1CBF04AE022412750B3FC /* [CP] Copy Pods Resources */,
+				7A0E956B9DE011D6F0005D5E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -162,9 +224,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6DE75E321FBEF5F00D0D022 /* Build configuration list for PBXNativeTarget "GHMasonryDemo" */;
 			buildPhases = (
+				B0D16268AAA280D02FA61322 /* [CP] Check Pods Manifest.lock */,
 				D6DE75CC21FBEF5E00D0D022 /* Sources */,
 				D6DE75CD21FBEF5E00D0D022 /* Frameworks */,
 				D6DE75CE21FBEF5E00D0D022 /* Resources */,
+				18CA3A4B4B4EA3AC039953CA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -173,6 +237,23 @@
 			name = GHMasonryDemo;
 			productName = GHMasonryDemo;
 			productReference = D6DE75D021FBEF5E00D0D022 /* GHMasonryDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6DE75EA21FBF2C200D0D022 /* GHKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6DE75FE21FBF2C300D0D022 /* Build configuration list for PBXNativeTarget "GHKit" */;
+			buildPhases = (
+				D6DE75E721FBF2C200D0D022 /* Sources */,
+				D6DE75E821FBF2C200D0D022 /* Frameworks */,
+				D6DE75E921FBF2C200D0D022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GHKit;
+			productName = GHKit;
+			productReference = D6DE75EB21FBF2C200D0D022 /* GHKit.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -188,6 +269,9 @@
 						CreatedOnToolsVersion = 10.1;
 					};
 					D6DE75CF21FBEF5E00D0D022 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					D6DE75EA21FBF2C200D0D022 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -207,6 +291,7 @@
 			targets = (
 				D6DE758621FBE97600D0D022 /* GHTestDemo */,
 				D6DE75CF21FBEF5E00D0D022 /* GHMasonryDemo */,
+				D6DE75EA21FBF2C200D0D022 /* GHKit */,
 			);
 		};
 /* End PBXProject section */
@@ -232,9 +317,145 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D6DE75E921FBF2C200D0D022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6DE75FA21FBF2C300D0D022 /* LaunchScreen.storyboard in Resources */,
+				D6DE75F721FBF2C300D0D022 /* Assets.xcassets in Resources */,
+				D6DE75F521FBF2C200D0D022 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		18CA3A4B4B4EA3AC039953CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GHMasonryDemo/Pods-GHMasonryDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
+				"${BUILT_PRODUCTS_DIR}/HUPhotoBrowser/HUPhotoBrowser.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/PGPickerView/PGPickerView.framework",
+				"${BUILT_PRODUCTS_DIR}/PPBadgeView/PPBadgeView.framework",
+				"${BUILT_PRODUCTS_DIR}/PPNetworkHelper/PPNetworkHelper.framework",
+				"${BUILT_PRODUCTS_DIR}/SDCycleScrollView/SDCycleScrollView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/WebViewJavascriptBridge/WebViewJavascriptBridge.framework",
+				"${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HUPhotoBrowser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PGPickerView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PPBadgeView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PPNetworkHelper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDCycleScrollView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WebViewJavascriptBridge.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCache.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GHMasonryDemo/Pods-GHMasonryDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A0E956B9DE011D6F0005D5E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GHTestDemo/Pods-GHTestDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
+				"${BUILT_PRODUCTS_DIR}/HUPhotoBrowser/HUPhotoBrowser.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/PGPickerView/PGPickerView.framework",
+				"${BUILT_PRODUCTS_DIR}/PPBadgeView/PPBadgeView.framework",
+				"${BUILT_PRODUCTS_DIR}/PPNetworkHelper/PPNetworkHelper.framework",
+				"${BUILT_PRODUCTS_DIR}/SDCycleScrollView/SDCycleScrollView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/WebViewJavascriptBridge/WebViewJavascriptBridge.framework",
+				"${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HUPhotoBrowser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PGPickerView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PPBadgeView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PPNetworkHelper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDCycleScrollView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WebViewJavascriptBridge.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCache.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GHTestDemo/Pods-GHTestDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0D16268AAA280D02FA61322 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GHMasonryDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D5E82C2206DC82A42D05B9D0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -257,32 +478,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E7F1CBF04AE022412750B3FC /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-GHTestDemo/Pods-GHTestDemo-resources.sh",
-				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
-				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
-				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GHTestDemo/Pods-GHTestDemo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -301,8 +496,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6DE75D721FBEF5E00D0D022 /* ViewController.m in Sources */,
+				D6DE760B21FBF3A000D0D022 /* GHView.m in Sources */,
 				D6DE75E221FBEF5F00D0D022 /* main.m in Sources */,
 				D6DE75D421FBEF5E00D0D022 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6DE75E721FBF2C200D0D022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6DE75F221FBF2C200D0D022 /* ViewController.m in Sources */,
+				D6DE75FD21FBF2C300D0D022 /* main.m in Sources */,
+				D6DE75EF21FBF2C200D0D022 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +543,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				D6DE75DE21FBEF5F00D0D022 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D6DE75F321FBF2C200D0D022 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6DE75F421FBF2C200D0D022 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6DE75F821FBF2C300D0D022 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6DE75F921FBF2C300D0D022 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -462,7 +684,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KZ9JB9ZT4S;
 				INFOPLIST_FILE = GHTestDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -479,7 +703,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KZ9JB9ZT4S;
 				INFOPLIST_FILE = GHTestDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -492,6 +718,7 @@
 		};
 		D6DE75E421FBEF5F00D0D022 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4B5C398CC8E9CC320AC6B21 /* Pods-GHMasonryDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -510,6 +737,7 @@
 		};
 		D6DE75E521FBEF5F00D0D022 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F46ACA375F4FD75DA624DBB /* Pods-GHMasonryDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +749,38 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = GHome.GHMasonryDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6DE75FF21FBF2C300D0D022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GHKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GHome.GHKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6DE760021FBF2C300D0D022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GHKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GHome.GHKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -552,6 +812,15 @@
 			buildConfigurations = (
 				D6DE75E421FBEF5F00D0D022 /* Debug */,
 				D6DE75E521FBEF5F00D0D022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6DE75FE21FBF2C300D0D022 /* Build configuration list for PBXNativeTarget "GHKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6DE75FF21FBF2C300D0D022 /* Debug */,
+				D6DE760021FBF2C300D0D022 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
