@@ -17,7 +17,9 @@
 
 
 #define kUrl @"http://app3.qdaily.com/app3/homes/index/0.json?"
+#define CLog(format, ...)  NSLog(format, ## __VA_ARGS__)
 
+#define NSLog(FORMAT, ...) printf("%s\n", [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
 /**
  头文件说明：
  1、与设备有关的宏定义

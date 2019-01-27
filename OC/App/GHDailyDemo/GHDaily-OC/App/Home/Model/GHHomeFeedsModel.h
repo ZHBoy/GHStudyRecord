@@ -13,8 +13,14 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface GHHomeFeedsModel : NSObject
 
+/**
+ 文章配图
+ */
 @property (nonatomic , copy) NSString *image;
 
+/**
+ 文章类型（以此来判断cell（文章显示）的样式）
+ */
 @property (nonatomic , assign) NSInteger type;
 
 @property (nonatomic , strong) GHHomePostModel *post;

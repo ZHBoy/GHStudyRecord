@@ -29,13 +29,15 @@
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     self.navigationController.navigationBarHidden = YES;
-    self.automaticallyAdjustsScrollViewInsets = NO;
   
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+    self.extendedLayoutIncludesOpaqueBars = NO;
+    self.edgesForExtendedLayout = UIRectEdgeLeft | UIRectEdgeBottom | UIRectEdgeRight;
+    
     self.view.backgroundColor = [UIColor whiteColor];
     
     [self loadData];
@@ -46,13 +48,12 @@
 - (void)setupUI {
     [self.view addSubview:self.tableView];
     self.tableView.tableHeaderView = self.header;
-    
 }
 
 - (void)loadData {
     
     [[GHHTTPManager sharedManager] getDataWithUrl:kUrl parameter:nil finishedBlock:^(id responseObject, NSError *error) {
- 
+        NSLog(@"responseObject%@",responseObject);
         GHHomeModel *homeModel = [[GHHomeModel alloc]initWithDict:responseObject];
         self.homeModel = homeModel;
         self.header.banners = homeModel.response.banners;
@@ -77,7 +78,7 @@
 }
 - (UITableView *)tableView {
     if (_tableView == nil) {
-        _tableView = [[UITableView alloc]initWithFrame:CGRectMake(0,kSafeAreaTopHeight, kScreenWidth, kScreenHeight - kSafeAreaTopHeight) style:UITableViewStylePlain];
+        _tableView = [[UITableView alloc]initWithFrame:CGRectMake(0,0, kScreenWidth, kScreenHeight) style:UITableViewStylePlain];
         _tableView.dataSource = self;
         _tableView.delegate = self;
         _tableView.tableFooterView = [UIView new];

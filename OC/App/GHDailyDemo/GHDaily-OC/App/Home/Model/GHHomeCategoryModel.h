@@ -12,6 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface GHHomeCategoryModel : NSObject
 
+/**
+ 新闻类型（设计、娱乐、智能等)
+ */
 @property (nonatomic , copy) NSString *title;
 
 @property (nonatomic , copy) NSString *normal;

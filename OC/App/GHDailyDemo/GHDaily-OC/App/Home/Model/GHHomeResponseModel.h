@@ -17,8 +17,14 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic , assign) NSInteger my_subscription_location;
 
+/**
+ 下拉加载时判断是否还有更多文章 false：没有 true：有
+ */
 @property (nonatomic , assign) BOOL has_more;
 
+/**
+ 下拉加载时需要拼接到URL中的key
+ */
 @property (nonatomic , copy) NSString *last_key;
 
 /**

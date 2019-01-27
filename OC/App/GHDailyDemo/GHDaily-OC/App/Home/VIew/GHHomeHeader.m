@@ -30,7 +30,6 @@
     }
     self.cycleScrollView.imageURLStringsGroup = imageUrls.copy;
     self.cycleScrollView.titlesGroup = titles.copy;
-
 }
 
 - (instancetype)initWithFrame:(CGRect)frame {

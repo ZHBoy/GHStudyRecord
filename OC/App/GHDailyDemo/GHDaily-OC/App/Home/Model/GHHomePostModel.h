@@ -14,22 +14,39 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface GHHomePostModel : NSObject
 
+
 @property (nonatomic , assign) NSInteger genre;
+
+/**
+ 新闻标题
+ */
 
 @property (nonatomic , copy) NSString *title;
 
 @property (nonatomic , copy) NSString *description;
 
+/**
+ 出版时间
+ */
 @property (nonatomic , assign) NSInteger publish_time;
 
+/**
+ 配图
+ */
 @property (nonatomic , copy) NSString *image;
 
 @property (nonatomic , assign) NSInteger start_time;
 
+/**
+ 评论数
+ */
 @property (nonatomic , assign) NSInteger comment_count;
 
 @property (nonatomic , assign) BOOL comment_status;
 
+/**
+ 点赞数
+ */
 @property (nonatomic , assign) NSInteger praise_count;
 
 @property (nonatomic , assign) NSInteger super_tag;
@@ -38,6 +55,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic , assign) NSInteger post_id;
 
+/**
+ 新闻文章链接（html格式)
+ */
 @property (nonatomic , copy) NSString *appview;
 
 @property (nonatomic , copy) NSString *film_length;
