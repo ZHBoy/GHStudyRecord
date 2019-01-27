@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '9.0'
+# 忽略所有警告
+inhibit_all_warnings!
+pod 'AFNetworking', '3.1.0'
+pod 'SDWebImage',  '4.0.0'
+pod 'MJExtension', '3.0.10'
+pod 'MJRefresh'
+pod 'MBProgressHUD', '0.9.2'
+pod 'IQKeyboardManager'
+pod 'Masonry', '1.0.0'
+pod 'SDCycleScrollView','1.75'
+
+target 'GHDailyDemo' do
+
+end
+
+
+target 'GHDaily-OC' do
+    
+end

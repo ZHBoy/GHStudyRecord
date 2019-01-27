@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1724866FE48FEB57C7EC33D /* libPods-GHDailyDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73812225F9CCDE5714C5967F /* libPods-GHDailyDemo.a */; };
+		D6DE762421FDB75200D0D022 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE762321FDB75200D0D022 /* AppDelegate.m */; };
+		D6DE762721FDB75200D0D022 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE762621FDB75200D0D022 /* ViewController.m */; };
+		D6DE762A21FDB75200D0D022 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6DE762821FDB75200D0D022 /* Main.storyboard */; };
+		D6DE762C21FDB75300D0D022 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6DE762B21FDB75300D0D022 /* Assets.xcassets */; };
+		D6DE762F21FDB75300D0D022 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6DE762D21FDB75300D0D022 /* LaunchScreen.storyboard */; };
+		D6DE763221FDB75300D0D022 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE763121FDB75300D0D022 /* main.m */; };
+		D6DE764021FDB7D700D0D022 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE763F21FDB7D700D0D022 /* AppDelegate.m */; };
+		D6DE764321FDB7D700D0D022 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE764221FDB7D700D0D022 /* ViewController.m */; };
+		D6DE764621FDB7D700D0D022 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6DE764421FDB7D700D0D022 /* Main.storyboard */; };
+		D6DE764821FDB7D700D0D022 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6DE764721FDB7D700D0D022 /* Assets.xcassets */; };
+		D6DE764B21FDB7D700D0D022 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6DE764921FDB7D700D0D022 /* LaunchScreen.storyboard */; };
+		D6DE764E21FDB7D800D0D022 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE764D21FDB7D800D0D022 /* main.m */; };
+		D6DE765B21FDB8F200D0D022 /* GHNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE765A21FDB8F200D0D022 /* GHNavigationController.m */; };
+		D6DE765E21FDB90E00D0D022 /* GHBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE765D21FDB90E00D0D022 /* GHBaseViewController.m */; };
+		D6DE766121FDB92C00D0D022 /* GHHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE766021FDB92C00D0D022 /* GHHomeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		73812225F9CCDE5714C5967F /* libPods-GHDailyDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GHDailyDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		987B88A36C2903376FEBDC0F /* Pods-GHDailyDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHDailyDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GHDailyDemo/Pods-GHDailyDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D6DE761F21FDB75200D0D022 /* GHDailyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHDailyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6DE762221FDB75200D0D022 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D6DE762321FDB75200D0D022 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D6DE762521FDB75200D0D022 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D6DE762621FDB75200D0D022 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D6DE762921FDB75200D0D022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6DE762B21FDB75300D0D022 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6DE762E21FDB75300D0D022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6DE763021FDB75300D0D022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6DE763121FDB75300D0D022 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6DE763C21FDB7D700D0D022 /* GHDaily-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GHDaily-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6DE763E21FDB7D700D0D022 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D6DE763F21FDB7D700D0D022 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D6DE764121FDB7D700D0D022 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D6DE764221FDB7D700D0D022 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D6DE764521FDB7D700D0D022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6DE764721FDB7D700D0D022 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6DE764A21FDB7D700D0D022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6DE764C21FDB7D800D0D022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6DE764D21FDB7D800D0D022 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6DE765921FDB8F200D0D022 /* GHNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHNavigationController.h; sourceTree = "<group>"; };
+		D6DE765A21FDB8F200D0D022 /* GHNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHNavigationController.m; sourceTree = "<group>"; };
+		D6DE765C21FDB90E00D0D022 /* GHBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHBaseViewController.h; sourceTree = "<group>"; };
+		D6DE765D21FDB90E00D0D022 /* GHBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHBaseViewController.m; sourceTree = "<group>"; };
+		D6DE765F21FDB92C00D0D022 /* GHHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHHomeViewController.h; sourceTree = "<group>"; };
+		D6DE766021FDB92C00D0D022 /* GHHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHHomeViewController.m; sourceTree = "<group>"; };
+		EB692E6B65518E6E64D87657 /* Pods-GHDailyDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHDailyDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GHDailyDemo/Pods-GHDailyDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6DE761C21FDB75200D0D022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1724866FE48FEB57C7EC33D /* libPods-GHDailyDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6DE763921FDB7D700D0D022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73B1A5B1DC1CF5A2C9BC1BC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73812225F9CCDE5714C5967F /* libPods-GHDailyDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		784D2C4E439562B8BEE51C0C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB692E6B65518E6E64D87657 /* Pods-GHDailyDemo.debug.xcconfig */,
+				987B88A36C2903376FEBDC0F /* Pods-GHDailyDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D6DE761621FDB75200D0D022 = {
+			isa = PBXGroup;
+			children = (
+				D6DE762121FDB75200D0D022 /* GHDailyDemo */,
+				D6DE763D21FDB7D700D0D022 /* GHDaily-OC */,
+				D6DE762021FDB75200D0D022 /* Products */,
+				784D2C4E439562B8BEE51C0C /* Pods */,
+				73B1A5B1DC1CF5A2C9BC1BC0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D6DE762021FDB75200D0D022 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6DE761F21FDB75200D0D022 /* GHDailyDemo.app */,
+				D6DE763C21FDB7D700D0D022 /* GHDaily-OC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6DE762121FDB75200D0D022 /* GHDailyDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D6DE762221FDB75200D0D022 /* AppDelegate.h */,
+				D6DE762321FDB75200D0D022 /* AppDelegate.m */,
+				D6DE762521FDB75200D0D022 /* ViewController.h */,
+				D6DE762621FDB75200D0D022 /* ViewController.m */,
+				D6DE762821FDB75200D0D022 /* Main.storyboard */,
+				D6DE762B21FDB75300D0D022 /* Assets.xcassets */,
+				D6DE762D21FDB75300D0D022 /* LaunchScreen.storyboard */,
+				D6DE763021FDB75300D0D022 /* Info.plist */,
+				D6DE763121FDB75300D0D022 /* main.m */,
+			);
+			path = GHDailyDemo;
+			sourceTree = "<group>";
+		};
+		D6DE763D21FDB7D700D0D022 /* GHDaily-OC */ = {
+			isa = PBXGroup;
+			children = (
+				D6DE765221FDB87100D0D022 /* App */,
+				D6DE763E21FDB7D700D0D022 /* AppDelegate.h */,
+				D6DE763F21FDB7D700D0D022 /* AppDelegate.m */,
+				D6DE764121FDB7D700D0D022 /* ViewController.h */,
+				D6DE764221FDB7D700D0D022 /* ViewController.m */,
+				D6DE764421FDB7D700D0D022 /* Main.storyboard */,
+				D6DE764721FDB7D700D0D022 /* Assets.xcassets */,
+				D6DE764921FDB7D700D0D022 /* LaunchScreen.storyboard */,
+				D6DE764C21FDB7D800D0D022 /* Info.plist */,
+				D6DE764D21FDB7D800D0D022 /* main.m */,
+			);
+			path = "GHDaily-OC";
+			sourceTree = "<group>";
+		};
+		D6DE765221FDB87100D0D022 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D6DE765721FDB8D900D0D022 /* Base */,
+				D6DE765321FDB88A00D0D022 /* Home */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D6DE765321FDB88A00D0D022 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D6DE765421FDB88A00D0D022 /* Controller */,
+				D6DE765521FDB88A00D0D022 /* Model */,
+				D6DE765621FDB88A00D0D022 /* VIew */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D6DE765421FDB88A00D0D022 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D6DE765F21FDB92C00D0D022 /* GHHomeViewController.h */,
+				D6DE766021FDB92C00D0D022 /* GHHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D6DE765521FDB88A00D0D022 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D6DE765621FDB88A00D0D022 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		D6DE765721FDB8D900D0D022 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D6DE765821FDB8D900D0D022 /* Controller */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		D6DE765821FDB8D900D0D022 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D6DE765921FDB8F200D0D022 /* GHNavigationController.h */,
+				D6DE765A21FDB8F200D0D022 /* GHNavigationController.m */,
+				D6DE765C21FDB90E00D0D022 /* GHBaseViewController.h */,
+				D6DE765D21FDB90E00D0D022 /* GHBaseViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6DE761E21FDB75200D0D022 /* GHDailyDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6DE763521FDB75300D0D022 /* Build configuration list for PBXNativeTarget "GHDailyDemo" */;
+			buildPhases = (
+				AC309EB4C56CAB9120199BD7 /* [CP] Check Pods Manifest.lock */,
+				D6DE761B21FDB75200D0D022 /* Sources */,
+				D6DE761C21FDB75200D0D022 /* Frameworks */,
+				D6DE761D21FDB75200D0D022 /* Resources */,
+				DD32D584E431E9D2EF85C2D7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GHDailyDemo;
+			productName = GHDailyDemo;
+			productReference = D6DE761F21FDB75200D0D022 /* GHDailyDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6DE763B21FDB7D700D0D022 /* GHDaily-OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6DE765121FDB7D800D0D022 /* Build configuration list for PBXNativeTarget "GHDaily-OC" */;
+			buildPhases = (
+				D6DE763821FDB7D700D0D022 /* Sources */,
+				D6DE763921FDB7D700D0D022 /* Frameworks */,
+				D6DE763A21FDB7D700D0D022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GHDaily-OC";
+			productName = "GHDaily-OC";
+			productReference = D6DE763C21FDB7D700D0D022 /* GHDaily-OC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6DE761721FDB75200D0D022 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = GHome;
+				TargetAttributes = {
+					D6DE761E21FDB75200D0D022 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					D6DE763B21FDB7D700D0D022 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = D6DE761A21FDB75200D0D022 /* Build configuration list for PBXProject "GHDailyDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6DE761621FDB75200D0D022;
+			productRefGroup = D6DE762021FDB75200D0D022 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6DE761E21FDB75200D0D022 /* GHDailyDemo */,
+				D6DE763B21FDB7D700D0D022 /* GHDaily-OC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6DE761D21FDB75200D0D022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6DE762F21FDB75300D0D022 /* LaunchScreen.storyboard in Resources */,
+				D6DE762C21FDB75300D0D022 /* Assets.xcassets in Resources */,
+				D6DE762A21FDB75200D0D022 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6DE763A21FDB7D700D0D022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6DE764B21FDB7D700D0D022 /* LaunchScreen.storyboard in Resources */,
+				D6DE764821FDB7D700D0D022 /* Assets.xcassets in Resources */,
+				D6DE764621FDB7D700D0D022 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AC309EB4C56CAB9120199BD7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GHDailyDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD32D584E431E9D2EF85C2D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GHDailyDemo/Pods-GHDailyDemo-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GHDailyDemo/Pods-GHDailyDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6DE761B21FDB75200D0D022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6DE762721FDB75200D0D022 /* ViewController.m in Sources */,
+				D6DE763221FDB75300D0D022 /* main.m in Sources */,
+				D6DE762421FDB75200D0D022 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6DE763821FDB7D700D0D022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6DE764321FDB7D700D0D022 /* ViewController.m in Sources */,
+				D6DE765E21FDB90E00D0D022 /* GHBaseViewController.m in Sources */,
+				D6DE766121FDB92C00D0D022 /* GHHomeViewController.m in Sources */,
+				D6DE764E21FDB7D800D0D022 /* main.m in Sources */,
+				D6DE765B21FDB8F200D0D022 /* GHNavigationController.m in Sources */,
+				D6DE764021FDB7D700D0D022 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D6DE762821FDB75200D0D022 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6DE762921FDB75200D0D022 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6DE762D21FDB75300D0D022 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6DE762E21FDB75300D0D022 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D6DE764421FDB7D700D0D022 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6DE764521FDB7D700D0D022 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6DE764921FDB7D700D0D022 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6DE764A21FDB7D700D0D022 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6DE763321FDB75300D0D022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D6DE763421FDB75300D0D022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6DE763621FDB75300D0D022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB692E6B65518E6E64D87657 /* Pods-GHDailyDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GHDailyDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GHome.GHDailyDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6DE763721FDB75300D0D022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 987B88A36C2903376FEBDC0F /* Pods-GHDailyDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GHDailyDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GHome.GHDailyDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6DE764F21FDB7D800D0D022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GHDaily-OC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GHome.GHDaily-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6DE765021FDB7D800D0D022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GHDaily-OC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GHome.GHDaily-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6DE761A21FDB75200D0D022 /* Build configuration list for PBXProject "GHDailyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6DE763321FDB75300D0D022 /* Debug */,
+				D6DE763421FDB75300D0D022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6DE763521FDB75300D0D022 /* Build configuration list for PBXNativeTarget "GHDailyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6DE763621FDB75300D0D022 /* Debug */,
+				D6DE763721FDB75300D0D022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6DE765121FDB7D800D0D022 /* Build configuration list for PBXNativeTarget "GHDaily-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6DE764F21FDB7D800D0D022 /* Debug */,
+				D6DE765021FDB7D800D0D022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6DE761721FDB75200D0D022 /* Project object */;
+}
