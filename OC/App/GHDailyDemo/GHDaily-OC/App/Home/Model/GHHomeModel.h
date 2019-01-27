@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "GHHomeMetaModel.h"
+#import "GHHomeResponseModel.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -15,7 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic , strong) GHHomeMetaModel *meta;
 
-@property (nonatomic , strong) NSDictionary *response;
+@property (nonatomic , strong) GHHomeResponseModel *response;
 
 @end
 
