@@ -4,6 +4,7 @@ import 'package:english_words/english_words.dart';
 void main() => runApp(new MyApp());
 
 class MyApp extends StatelessWidget {
+  final wordPair = new WordPair.random();
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
           title: new Text('firstApp'),
         ),
         body: new Center(
-          child: new Text('喝大力出奇迹'),
+          child: new Text (wordPair.asPascalCase),
         ),
       ),
     );
