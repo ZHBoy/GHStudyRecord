@@ -11,7 +11,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface GHomeBannersModel : NSObject
+@interface GHHomeBannersModel : NSObject
 
 @property (nonatomic , copy) NSString *image;
 

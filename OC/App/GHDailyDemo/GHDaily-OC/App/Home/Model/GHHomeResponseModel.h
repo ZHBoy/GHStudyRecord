@@ -8,8 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import "GHHomeFeedsModel.h"
-#import "GHomeBannersModel.h"
-#import "GHomeColumnsModel.h"
+#import "GHHomeBannersModel.h"
+#import "GHHomeColumnsModel.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

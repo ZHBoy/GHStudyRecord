@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface GHomeCategoryModel : NSObject
+@interface GHHomeCategoryModel : NSObject
 
 @property (nonatomic , copy) NSString *title;
 

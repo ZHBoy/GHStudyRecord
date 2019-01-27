@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "GHomeListModel.h"
+#import "GHHomeListModel.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

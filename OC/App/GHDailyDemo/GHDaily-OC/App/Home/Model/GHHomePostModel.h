@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "GHomeCategoryModel.h"
+#import "GHHomeCategoryModel.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -43,7 +43,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic , copy) NSString *datatype;
 
-@property (nonatomic , strong) GHomeCategoryModel *category;
+@property (nonatomic , strong) GHHomeCategoryModel *category;
 
 
 @end

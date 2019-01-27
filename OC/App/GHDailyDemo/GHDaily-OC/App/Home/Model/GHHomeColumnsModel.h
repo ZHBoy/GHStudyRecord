@@ -7,11 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "GHomeShareModel.h"
+#import "GHHomeShareModel.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface GHomeColumnsModel : NSObject
+@interface GHHomeColumnsModel : NSObject
 
 @property (nonatomic , copy) NSString *name;
 
@@ -41,7 +41,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic , assign) NSInteger location;
 
-@property (nonatomic , strong) GHomeShareModel *share;
+@property (nonatomic , strong) NSDictionary *share;
 
 @end
 
