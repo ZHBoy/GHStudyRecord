@@ -1,16 +1,18 @@
 //
-//  GHHomeHeader.h
+//  GHBaseModel.h
 //  GHDaily-OC
 //
 //  Created by zhaozhiwei on 2019/1/27.
 //  Copyright © 2019年 GHome. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
-@interface GHHomeHeader : UIView
-@property (nonatomic , strong) NSArray *banners;
+
+@interface GHBaseModel : NSObject
+
+- (instancetype)initWithDict:(NSDictionary *)dict;
 @end
 
 NS_ASSUME_NONNULL_END

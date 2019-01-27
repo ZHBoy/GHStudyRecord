@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "GHHomeCategoryModel.h"
+#import "GHHomeColumnsModel.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -45,6 +46,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic , strong) GHHomeCategoryModel *category;
 
+@property (nonatomic , strong) GHHomeColumnsModel *column;
 
 @end
 

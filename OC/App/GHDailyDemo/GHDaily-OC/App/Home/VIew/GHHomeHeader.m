@@ -7,11 +7,31 @@
 //
 
 #import "GHHomeHeader.h"
+#import "GHHomeBannersModel.h"
+#import "GHHomeFeedsModel.h"
+#import "GHHomePostModel.h"
+#import "GHHomeCategoryModel.h"
+#import "GHHomeColumnsModel.h"
 
 @interface GHHomeHeader()
 @property (nonatomic , strong) SDCycleScrollView *cycleScrollView;
 @end
 @implementation GHHomeHeader
+
+- (void)setBanners:(NSArray *)banners {
+    _banners = banners;
+    
+    NSMutableArray *imageUrls = [NSMutableArray array];
+    NSMutableArray *titles = [NSMutableArray array];
+
+    for (GHHomeBannersModel *bannersModel in banners) {
+        [imageUrls addObject:bannersModel.post.image];
+        [titles addObject:bannersModel.post.title];
+    }
+    self.cycleScrollView.imageURLStringsGroup = imageUrls.copy;
+    self.cycleScrollView.titlesGroup = titles.copy;
+
+}
 
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self == [super initWithFrame:frame]) {

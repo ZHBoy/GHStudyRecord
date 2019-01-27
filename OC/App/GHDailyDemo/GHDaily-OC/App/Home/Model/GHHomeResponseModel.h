@@ -6,14 +6,14 @@
 //  Copyright © 2019年 GHome. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "GHBaseModel.h"
 #import "GHHomeFeedsModel.h"
 #import "GHHomeBannersModel.h"
 #import "GHHomeColumnsModel.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface GHHomeResponseModel : NSObject
+@interface GHHomeResponseModel : GHBaseModel
 
 @property (nonatomic , assign) NSInteger my_subscription_location;
 

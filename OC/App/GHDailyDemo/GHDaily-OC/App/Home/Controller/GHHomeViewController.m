@@ -9,10 +9,19 @@
 #import "GHHomeViewController.h"
 #import "GHHTTPManager.h"
 #import "GHHomeHeader.h"
+#import "GHHomeModel.h"
+#import "GHHomeMetaModel.h"
+#import "GHHomeResponseModel.h"
+#import "GHHomeFeedsModel.h"
+#import "GHHomePostModel.h"
+#import "GHHomeCategoryModel.h"
+#import "GHHomeColumnsModel.h"
+#import "GHHomeBannersModel.h"
 
 @interface GHHomeViewController()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic , strong) UITableView *tableView;
 @property (nonatomic , strong) GHHomeHeader *header;
+@property (nonatomic , strong) GHHomeModel *homeModel;
 
 @end
 @implementation GHHomeViewController
@@ -43,9 +52,10 @@
 - (void)loadData {
     
     [[GHHTTPManager sharedManager] getDataWithUrl:kUrl parameter:nil finishedBlock:^(id responseObject, NSError *error) {
-        NSLog(@"responseObject%@",responseObject);
-        NSLog(@"error%@",error);
-
+ 
+        GHHomeModel *homeModel = [[GHHomeModel alloc]initWithDict:responseObject];
+        self.homeModel = homeModel;
+        self.header.banners = homeModel.response.banners;
     }];
 }
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {

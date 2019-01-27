@@ -10,4 +10,17 @@
 
 @implementation GHHomeMetaModel
 
+
+- (instancetype)initWithDict:(NSDictionary *)dict {
+    
+    if (self == [super initWithDict:dict]) {
+        [self parseWithDict:dict];
+    }
+    return self;
+    
+}
+
+- (void)parseWithDict: (NSDictionary *)dict {
+}
+
 @end

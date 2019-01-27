@@ -6,13 +6,12 @@
 //  Copyright © 2019年 GHome. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-#import "GHHomeMetaModel.h"
-#import "GHHomeResponseModel.h"
+#import "GHBaseModel.h"
 
+@class GHHomeMetaModel,GHHomeResponseModel;
 NS_ASSUME_NONNULL_BEGIN
 
-@interface GHHomeModel : NSObject
+@interface GHHomeModel : GHBaseModel
 
 @property (nonatomic , strong) GHHomeMetaModel *meta;
 
