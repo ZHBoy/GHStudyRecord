@@ -4,18 +4,37 @@ import 'package:english_words/english_words.dart';
 void main() => runApp(new MyApp());
 
 class MyApp extends StatelessWidget {
-  final wordPair = new WordPair.random();
   @override
+  final wordPair = WordPair.random();
   Widget build(BuildContext context) {
+    final title = 'ListVsssisddsf9999sfew';
     return new MaterialApp(
-      title: 'Welcome to Flutter',
+      title: title,
       home: new Scaffold(
-      
-        body: new Center(
-          child: new RandomWords(),
+        appBar: new AppBar(
+          title: new Text(title),
         ),
+        body: listView(),
       ),
     );
+  }
+  Widget listView(){
+      return ListView(
+          children: <Widget>[
+            new ListTile(
+              leading: new Icon(Icons.map),
+              title: new Text(wordPair.asPascalCase),
+            ),
+            new ListTile(
+              leading: new Icon(Icons.photo),
+              title: new Text(wordPair.asPascalCase),
+            ),
+            new ListTile(
+              leading: new Icon(Icons.phone),
+              title: new Text(wordPair.asPascalCase),
+            ),
+          ],
+     );
   }
 }
 
@@ -39,6 +58,8 @@ class RandomWordsState extends State<RandomWords> {
   return new Text(wordPair.asPascalCase);
 
  }
+    
+
   Widget _buildSuggestions() {
     return new ListView.builder(
       padding: const EdgeInsets.all(16.0),

@@ -25,6 +25,25 @@
 		D6DE766421FDBC1F00D0D022 /* GHHomeNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE766321FDBC1F00D0D022 /* GHHomeNewsCell.m */; };
 		D6DE767021FDBFF000D0D022 /* GHHTTPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE766E21FDBFF000D0D022 /* GHHTTPManager.m */; };
 		D6DE767321FDC18600D0D022 /* GHHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE767221FDC18600D0D022 /* GHHomeModel.m */; };
+		D6DE767621FDC22700D0D022 /* GHHomeMetaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE767521FDC22700D0D022 /* GHHomeMetaModel.m */; };
+		D6DE767921FDC27800D0D022 /* GHHomeResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE767821FDC27800D0D022 /* GHHomeResponseModel.m */; };
+		D6DE767C21FDC34100D0D022 /* GHHomeFeedsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE767B21FDC34100D0D022 /* GHHomeFeedsModel.m */; };
+		D6DE767F21FDC38800D0D022 /* GHHomePostModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE767E21FDC38800D0D022 /* GHHomePostModel.m */; };
+		D6DE768221FDC47E00D0D022 /* GHHomeCategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE768121FDC47E00D0D022 /* GHHomeCategoryModel.m */; };
+		D6DE768521FDC51600D0D022 /* GHHomeBannersModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE768421FDC51600D0D022 /* GHHomeBannersModel.m */; };
+		D6DE768821FDC58900D0D022 /* GHHeadlineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE768721FDC58900D0D022 /* GHHeadlineModel.m */; };
+		D6DE768E21FDC5E400D0D022 /* GHHomeListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE768D21FDC5E400D0D022 /* GHHomeListModel.m */; };
+		D6DE769121FDC61100D0D022 /* GHHomeColumnsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE769021FDC61100D0D022 /* GHHomeColumnsModel.m */; };
+		D6DE769421FDC6CA00D0D022 /* GHHomeShareModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE769321FDC6CA00D0D022 /* GHHomeShareModel.m */; };
+		D6DE769721FDC80600D0D022 /* GHHomeBannersAdModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE769621FDC80600D0D022 /* GHHomeBannersAdModel.m */; };
+		D6DE769A21FDC85600D0D022 /* GHHomeAdvertisementModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE769921FDC85600D0D022 /* GHHomeAdvertisementModel.m */; };
+		D6DE769D21FDC8EB00D0D022 /* GHHomeCoverModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE769C21FDC8EB00D0D022 /* GHHomeCoverModel.m */; };
+		D6DE76A021FDC92600D0D022 /* GHHomeFeedsAdModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE769F21FDC92600D0D022 /* GHHomeFeedsAdModel.m */; };
+		D6DE76A321FDCE5B00D0D022 /* GHHomeHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE76A221FDCE5A00D0D022 /* GHHomeHeader.m */; };
+		D6DE76A721FDD12400D0D022 /* GHBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE76A621FDD12400D0D022 /* GHBaseModel.m */; };
+		D6DE76AB21FDE5E400D0D022 /* NSArray+GHAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE76AA21FDE5E400D0D022 /* NSArray+GHAdd.m */; };
+		D6DE76AE21FDE89100D0D022 /* NSDictionary+GHAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE76AD21FDE89100D0D022 /* NSDictionary+GHAdd.m */; };
+		D6DE76B121FDF69600D0D022 /* GHWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE76B021FDF69600D0D022 /* GHWebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +81,44 @@
 		D6DE766F21FDBFF000D0D022 /* GHHTTPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHHTTPManager.h; sourceTree = "<group>"; };
 		D6DE767121FDC18600D0D022 /* GHHomeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHHomeModel.h; sourceTree = "<group>"; };
 		D6DE767221FDC18600D0D022 /* GHHomeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHHomeModel.m; sourceTree = "<group>"; };
+		D6DE767421FDC22700D0D022 /* GHHomeMetaModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHHomeMetaModel.h; sourceTree = "<group>"; };
+		D6DE767521FDC22700D0D022 /* GHHomeMetaModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHHomeMetaModel.m; sourceTree = "<group>"; };
+		D6DE767721FDC27800D0D022 /* GHHomeResponseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHHomeResponseModel.h; sourceTree = "<group>"; };
+		D6DE767821FDC27800D0D022 /* GHHomeResponseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHHomeResponseModel.m; sourceTree = "<group>"; };
+		D6DE767A21FDC34100D0D022 /* GHHomeFeedsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHHomeFeedsModel.h; sourceTree = "<group>"; };
+		D6DE767B21FDC34100D0D022 /* GHHomeFeedsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHHomeFeedsModel.m; sourceTree = "<group>"; };
+		D6DE767D21FDC38800D0D022 /* GHHomePostModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHHomePostModel.h; sourceTree = "<group>"; };
+		D6DE767E21FDC38800D0D022 /* GHHomePostModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHHomePostModel.m; sourceTree = "<group>"; };
+		D6DE768021FDC47E00D0D022 /* GHHomeCategoryModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHHomeCategoryModel.h; sourceTree = "<group>"; };
+		D6DE768121FDC47E00D0D022 /* GHHomeCategoryModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHHomeCategoryModel.m; sourceTree = "<group>"; };
+		D6DE768321FDC51600D0D022 /* GHHomeBannersModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHHomeBannersModel.h; sourceTree = "<group>"; };
+		D6DE768421FDC51600D0D022 /* GHHomeBannersModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHHomeBannersModel.m; sourceTree = "<group>"; };
+		D6DE768621FDC58900D0D022 /* GHHeadlineModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHHeadlineModel.h; sourceTree = "<group>"; };
+		D6DE768721FDC58900D0D022 /* GHHeadlineModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHHeadlineModel.m; sourceTree = "<group>"; };
+		D6DE768C21FDC5E400D0D022 /* GHHomeListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHHomeListModel.h; sourceTree = "<group>"; };
+		D6DE768D21FDC5E400D0D022 /* GHHomeListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHHomeListModel.m; sourceTree = "<group>"; };
+		D6DE768F21FDC61100D0D022 /* GHHomeColumnsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHHomeColumnsModel.h; sourceTree = "<group>"; };
+		D6DE769021FDC61100D0D022 /* GHHomeColumnsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHHomeColumnsModel.m; sourceTree = "<group>"; };
+		D6DE769221FDC6CA00D0D022 /* GHHomeShareModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHHomeShareModel.h; sourceTree = "<group>"; };
+		D6DE769321FDC6CA00D0D022 /* GHHomeShareModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHHomeShareModel.m; sourceTree = "<group>"; };
+		D6DE769521FDC80600D0D022 /* GHHomeBannersAdModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHHomeBannersAdModel.h; sourceTree = "<group>"; };
+		D6DE769621FDC80600D0D022 /* GHHomeBannersAdModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHHomeBannersAdModel.m; sourceTree = "<group>"; };
+		D6DE769821FDC85600D0D022 /* GHHomeAdvertisementModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHHomeAdvertisementModel.h; sourceTree = "<group>"; };
+		D6DE769921FDC85600D0D022 /* GHHomeAdvertisementModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHHomeAdvertisementModel.m; sourceTree = "<group>"; };
+		D6DE769B21FDC8EB00D0D022 /* GHHomeCoverModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHHomeCoverModel.h; sourceTree = "<group>"; };
+		D6DE769C21FDC8EB00D0D022 /* GHHomeCoverModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHHomeCoverModel.m; sourceTree = "<group>"; };
+		D6DE769E21FDC92600D0D022 /* GHHomeFeedsAdModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHHomeFeedsAdModel.h; sourceTree = "<group>"; };
+		D6DE769F21FDC92600D0D022 /* GHHomeFeedsAdModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHHomeFeedsAdModel.m; sourceTree = "<group>"; };
+		D6DE76A121FDCE5A00D0D022 /* GHHomeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHHomeHeader.h; sourceTree = "<group>"; };
+		D6DE76A221FDCE5A00D0D022 /* GHHomeHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHHomeHeader.m; sourceTree = "<group>"; };
+		D6DE76A521FDD12400D0D022 /* GHBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHBaseModel.h; sourceTree = "<group>"; };
+		D6DE76A621FDD12400D0D022 /* GHBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHBaseModel.m; sourceTree = "<group>"; };
+		D6DE76A921FDE5E400D0D022 /* NSArray+GHAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+GHAdd.h"; sourceTree = "<group>"; };
+		D6DE76AA21FDE5E400D0D022 /* NSArray+GHAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+GHAdd.m"; sourceTree = "<group>"; };
+		D6DE76AC21FDE89100D0D022 /* NSDictionary+GHAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+GHAdd.h"; sourceTree = "<group>"; };
+		D6DE76AD21FDE89100D0D022 /* NSDictionary+GHAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+GHAdd.m"; sourceTree = "<group>"; };
+		D6DE76AF21FDF69600D0D022 /* GHWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHWebViewController.h; sourceTree = "<group>"; };
+		D6DE76B021FDF69600D0D022 /* GHWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHWebViewController.m; sourceTree = "<group>"; };
 		E9EDFC132C17D40D1FA5BD3B /* libPods-GHDaily-OC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GHDaily-OC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB692E6B65518E6E64D87657 /* Pods-GHDailyDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHDailyDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GHDailyDemo/Pods-GHDailyDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -159,6 +216,7 @@
 		D6DE765221FDB87100D0D022 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				D6DE76A821FDE5AB00D0D022 /* Category */,
 				D6DE766721FDBE3D00D0D022 /* Tool */,
 				D6DE766521FDBC8400D0D022 /* Other */,
 				D6DE765721FDB8D900D0D022 /* Base */,
@@ -182,6 +240,8 @@
 			children = (
 				D6DE765F21FDB92C00D0D022 /* GHHomeViewController.h */,
 				D6DE766021FDB92C00D0D022 /* GHHomeViewController.m */,
+				D6DE76AF21FDF69600D0D022 /* GHWebViewController.h */,
+				D6DE76B021FDF69600D0D022 /* GHWebViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -191,6 +251,34 @@
 			children = (
 				D6DE767121FDC18600D0D022 /* GHHomeModel.h */,
 				D6DE767221FDC18600D0D022 /* GHHomeModel.m */,
+				D6DE767421FDC22700D0D022 /* GHHomeMetaModel.h */,
+				D6DE767521FDC22700D0D022 /* GHHomeMetaModel.m */,
+				D6DE767721FDC27800D0D022 /* GHHomeResponseModel.h */,
+				D6DE767821FDC27800D0D022 /* GHHomeResponseModel.m */,
+				D6DE767A21FDC34100D0D022 /* GHHomeFeedsModel.h */,
+				D6DE767B21FDC34100D0D022 /* GHHomeFeedsModel.m */,
+				D6DE767D21FDC38800D0D022 /* GHHomePostModel.h */,
+				D6DE767E21FDC38800D0D022 /* GHHomePostModel.m */,
+				D6DE768021FDC47E00D0D022 /* GHHomeCategoryModel.h */,
+				D6DE768121FDC47E00D0D022 /* GHHomeCategoryModel.m */,
+				D6DE768321FDC51600D0D022 /* GHHomeBannersModel.h */,
+				D6DE768421FDC51600D0D022 /* GHHomeBannersModel.m */,
+				D6DE768621FDC58900D0D022 /* GHHeadlineModel.h */,
+				D6DE768721FDC58900D0D022 /* GHHeadlineModel.m */,
+				D6DE768C21FDC5E400D0D022 /* GHHomeListModel.h */,
+				D6DE768D21FDC5E400D0D022 /* GHHomeListModel.m */,
+				D6DE768F21FDC61100D0D022 /* GHHomeColumnsModel.h */,
+				D6DE769021FDC61100D0D022 /* GHHomeColumnsModel.m */,
+				D6DE769221FDC6CA00D0D022 /* GHHomeShareModel.h */,
+				D6DE769321FDC6CA00D0D022 /* GHHomeShareModel.m */,
+				D6DE769521FDC80600D0D022 /* GHHomeBannersAdModel.h */,
+				D6DE769621FDC80600D0D022 /* GHHomeBannersAdModel.m */,
+				D6DE769821FDC85600D0D022 /* GHHomeAdvertisementModel.h */,
+				D6DE769921FDC85600D0D022 /* GHHomeAdvertisementModel.m */,
+				D6DE769B21FDC8EB00D0D022 /* GHHomeCoverModel.h */,
+				D6DE769C21FDC8EB00D0D022 /* GHHomeCoverModel.m */,
+				D6DE769E21FDC92600D0D022 /* GHHomeFeedsAdModel.h */,
+				D6DE769F21FDC92600D0D022 /* GHHomeFeedsAdModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -200,6 +288,8 @@
 			children = (
 				D6DE766221FDBC1F00D0D022 /* GHHomeNewsCell.h */,
 				D6DE766321FDBC1F00D0D022 /* GHHomeNewsCell.m */,
+				D6DE76A121FDCE5A00D0D022 /* GHHomeHeader.h */,
+				D6DE76A221FDCE5A00D0D022 /* GHHomeHeader.m */,
 			);
 			path = VIew;
 			sourceTree = "<group>";
@@ -207,6 +297,7 @@
 		D6DE765721FDB8D900D0D022 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				D6DE76A421FDD11500D0D022 /* Model */,
 				D6DE765821FDB8D900D0D022 /* Controller */,
 			);
 			path = Base;
@@ -238,6 +329,26 @@
 				D6DE766E21FDBFF000D0D022 /* GHHTTPManager.m */,
 			);
 			path = Tool;
+			sourceTree = "<group>";
+		};
+		D6DE76A421FDD11500D0D022 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D6DE76A521FDD12400D0D022 /* GHBaseModel.h */,
+				D6DE76A621FDD12400D0D022 /* GHBaseModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D6DE76A821FDE5AB00D0D022 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D6DE76A921FDE5E400D0D022 /* NSArray+GHAdd.h */,
+				D6DE76AA21FDE5E400D0D022 /* NSArray+GHAdd.m */,
+				D6DE76AC21FDE89100D0D022 /* NSDictionary+GHAdd.h */,
+				D6DE76AD21FDE89100D0D022 /* NSDictionary+GHAdd.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -451,12 +562,31 @@
 			files = (
 				D6DE765E21FDB90E00D0D022 /* GHBaseViewController.m in Sources */,
 				D6DE767321FDC18600D0D022 /* GHHomeModel.m in Sources */,
+				D6DE767921FDC27800D0D022 /* GHHomeResponseModel.m in Sources */,
+				D6DE769721FDC80600D0D022 /* GHHomeBannersAdModel.m in Sources */,
+				D6DE76A021FDC92600D0D022 /* GHHomeFeedsAdModel.m in Sources */,
 				D6DE766121FDB92C00D0D022 /* GHHomeViewController.m in Sources */,
 				D6DE764E21FDB7D800D0D022 /* main.m in Sources */,
+				D6DE768221FDC47E00D0D022 /* GHHomeCategoryModel.m in Sources */,
 				D6DE767021FDBFF000D0D022 /* GHHTTPManager.m in Sources */,
+				D6DE767621FDC22700D0D022 /* GHHomeMetaModel.m in Sources */,
+				D6DE769D21FDC8EB00D0D022 /* GHHomeCoverModel.m in Sources */,
+				D6DE76A721FDD12400D0D022 /* GHBaseModel.m in Sources */,
+				D6DE768E21FDC5E400D0D022 /* GHHomeListModel.m in Sources */,
 				D6DE765B21FDB8F200D0D022 /* GHNavigationController.m in Sources */,
+				D6DE76AB21FDE5E400D0D022 /* NSArray+GHAdd.m in Sources */,
+				D6DE769421FDC6CA00D0D022 /* GHHomeShareModel.m in Sources */,
 				D6DE766421FDBC1F00D0D022 /* GHHomeNewsCell.m in Sources */,
+				D6DE769121FDC61100D0D022 /* GHHomeColumnsModel.m in Sources */,
+				D6DE768521FDC51600D0D022 /* GHHomeBannersModel.m in Sources */,
+				D6DE768821FDC58900D0D022 /* GHHeadlineModel.m in Sources */,
 				D6DE764021FDB7D700D0D022 /* AppDelegate.m in Sources */,
+				D6DE769A21FDC85600D0D022 /* GHHomeAdvertisementModel.m in Sources */,
+				D6DE767C21FDC34100D0D022 /* GHHomeFeedsModel.m in Sources */,
+				D6DE76A321FDCE5B00D0D022 /* GHHomeHeader.m in Sources */,
+				D6DE767F21FDC38800D0D022 /* GHHomePostModel.m in Sources */,
+				D6DE76AE21FDE89100D0D022 /* NSDictionary+GHAdd.m in Sources */,
+				D6DE76B121FDF69600D0D022 /* GHWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

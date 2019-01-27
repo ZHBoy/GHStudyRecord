@@ -17,6 +17,7 @@
 #import "GHHomeCategoryModel.h"
 #import "GHHomeColumnsModel.h"
 #import "GHHomeBannersModel.h"
+#import "GHWebViewController.h"
 
 @interface GHHomeViewController()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic , strong) UITableView *tableView;
@@ -51,9 +52,13 @@
 }
 
 - (void)loadData {
+    [[GHHTTPManager sharedManager] getDataWithUrl:@"http://app3.qdaily.com/app3/articles/60664.html" parameter:nil finishedBlock:^(id responseObject, NSError *error) {
+        NSLog(@"responseObject%@",responseObject);
+        NSLog(@"error%@",error);
+
+    }];
     
     [[GHHTTPManager sharedManager] getDataWithUrl:kUrl parameter:nil finishedBlock:^(id responseObject, NSError *error) {
-        NSLog(@"responseObject%@",responseObject);
         GHHomeModel *homeModel = [[GHHomeModel alloc]initWithDict:responseObject];
         self.homeModel = homeModel;
         self.header.banners = homeModel.response.banners;
@@ -69,6 +74,11 @@
     return cell;
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    [self.navigationController pushViewController:[GHWebViewController new] animated:YES];
+
+}
 
 - (GHHomeHeader *)header {
     if (_header == nil) {

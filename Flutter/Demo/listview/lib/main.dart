@@ -5,15 +5,20 @@ void main() => runApp(new MyApp());
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final title = 'Basic List';
-    
+    final title = 'ListVsssiew';
     return new MaterialApp(
       title: title,
       home: new Scaffold(
         appBar: new AppBar(
           title: new Text(title),
         ),
-        body: new ListView(
+        body: listView(),
+      ),
+    );
+  }
+
+  Widget listView(){
+      return ListView(
           children: <Widget>[
             new ListTile(
               leading: new Icon(Icons.map),
@@ -28,8 +33,7 @@ class MyApp extends StatelessWidget {
               title: new Text('Phone'),
             ),
           ],
-        ),
-      ),
-    );
+     );
   }
+  
 }
