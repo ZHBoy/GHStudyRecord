@@ -1,5 +1,5 @@
 //
-//  GHHomeModel.h
+//  GHomeListModel.h
 //  GHDaily-OC
 //
 //  Created by zhaozhiwei on 2019/1/27.
@@ -7,15 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "GHHomeMetaModel.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface GHHomeModel : NSObject
-
-@property (nonatomic , strong) GHHomeMetaModel *meta;
-
-@property (nonatomic , strong) NSDictionary *response;
+@interface GHomeListModel : NSObject
 
 @end
 
