@@ -15,14 +15,13 @@
 		D6DE762F21FDB75300D0D022 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6DE762D21FDB75300D0D022 /* LaunchScreen.storyboard */; };
 		D6DE763221FDB75300D0D022 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE763121FDB75300D0D022 /* main.m */; };
 		D6DE764021FDB7D700D0D022 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE763F21FDB7D700D0D022 /* AppDelegate.m */; };
-		D6DE764321FDB7D700D0D022 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE764221FDB7D700D0D022 /* ViewController.m */; };
-		D6DE764621FDB7D700D0D022 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6DE764421FDB7D700D0D022 /* Main.storyboard */; };
 		D6DE764821FDB7D700D0D022 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6DE764721FDB7D700D0D022 /* Assets.xcassets */; };
 		D6DE764B21FDB7D700D0D022 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6DE764921FDB7D700D0D022 /* LaunchScreen.storyboard */; };
 		D6DE764E21FDB7D800D0D022 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE764D21FDB7D800D0D022 /* main.m */; };
 		D6DE765B21FDB8F200D0D022 /* GHNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE765A21FDB8F200D0D022 /* GHNavigationController.m */; };
 		D6DE765E21FDB90E00D0D022 /* GHBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE765D21FDB90E00D0D022 /* GHBaseViewController.m */; };
 		D6DE766121FDB92C00D0D022 /* GHHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE766021FDB92C00D0D022 /* GHHomeViewController.m */; };
+		D6DE766421FDBC1F00D0D022 /* GHHomeNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE766321FDBC1F00D0D022 /* GHHomeNewsCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,9 +40,6 @@
 		D6DE763C21FDB7D700D0D022 /* GHDaily-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GHDaily-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6DE763E21FDB7D700D0D022 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D6DE763F21FDB7D700D0D022 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D6DE764121FDB7D700D0D022 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D6DE764221FDB7D700D0D022 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D6DE764521FDB7D700D0D022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D6DE764721FDB7D700D0D022 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6DE764A21FDB7D700D0D022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6DE764C21FDB7D800D0D022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +50,8 @@
 		D6DE765D21FDB90E00D0D022 /* GHBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHBaseViewController.m; sourceTree = "<group>"; };
 		D6DE765F21FDB92C00D0D022 /* GHHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHHomeViewController.h; sourceTree = "<group>"; };
 		D6DE766021FDB92C00D0D022 /* GHHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHHomeViewController.m; sourceTree = "<group>"; };
+		D6DE766221FDBC1F00D0D022 /* GHHomeNewsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHHomeNewsCell.h; sourceTree = "<group>"; };
+		D6DE766321FDBC1F00D0D022 /* GHHomeNewsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHHomeNewsCell.m; sourceTree = "<group>"; };
 		EB692E6B65518E6E64D87657 /* Pods-GHDailyDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHDailyDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GHDailyDemo/Pods-GHDailyDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -135,9 +133,6 @@
 				D6DE765221FDB87100D0D022 /* App */,
 				D6DE763E21FDB7D700D0D022 /* AppDelegate.h */,
 				D6DE763F21FDB7D700D0D022 /* AppDelegate.m */,
-				D6DE764121FDB7D700D0D022 /* ViewController.h */,
-				D6DE764221FDB7D700D0D022 /* ViewController.m */,
-				D6DE764421FDB7D700D0D022 /* Main.storyboard */,
 				D6DE764721FDB7D700D0D022 /* Assets.xcassets */,
 				D6DE764921FDB7D700D0D022 /* LaunchScreen.storyboard */,
 				D6DE764C21FDB7D800D0D022 /* Info.plist */,
@@ -184,6 +179,8 @@
 		D6DE765621FDB88A00D0D022 /* VIew */ = {
 			isa = PBXGroup;
 			children = (
+				D6DE766221FDBC1F00D0D022 /* GHHomeNewsCell.h */,
+				D6DE766321FDBC1F00D0D022 /* GHHomeNewsCell.m */,
 			);
 			path = VIew;
 			sourceTree = "<group>";
@@ -299,7 +296,6 @@
 			files = (
 				D6DE764B21FDB7D700D0D022 /* LaunchScreen.storyboard in Resources */,
 				D6DE764821FDB7D700D0D022 /* Assets.xcassets in Resources */,
-				D6DE764621FDB7D700D0D022 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,11 +365,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6DE764321FDB7D700D0D022 /* ViewController.m in Sources */,
 				D6DE765E21FDB90E00D0D022 /* GHBaseViewController.m in Sources */,
 				D6DE766121FDB92C00D0D022 /* GHHomeViewController.m in Sources */,
 				D6DE764E21FDB7D800D0D022 /* main.m in Sources */,
 				D6DE765B21FDB8F200D0D022 /* GHNavigationController.m in Sources */,
+				D6DE766421FDBC1F00D0D022 /* GHHomeNewsCell.m in Sources */,
 				D6DE764021FDB7D700D0D022 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,14 +391,6 @@
 				D6DE762E21FDB75300D0D022 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		D6DE764421FDB7D700D0D022 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D6DE764521FDB7D700D0D022 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		D6DE764921FDB7D700D0D022 /* LaunchScreen.storyboard */ = {

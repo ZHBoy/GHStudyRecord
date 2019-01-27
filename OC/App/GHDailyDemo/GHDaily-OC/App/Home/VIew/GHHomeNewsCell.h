@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  GHHomeNewsCell.h
 //  GHDaily-OC
 //
 //  Created by zhaozhiwei on 2019/1/27.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface GHHomeNewsCell : UITableViewCell
 
 @end
 
+NS_ASSUME_NONNULL_END
