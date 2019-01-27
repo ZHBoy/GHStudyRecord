@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C6DA5E27C92C33464C995C3E /* libPods-GHDaily-OC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9EDFC132C17D40D1FA5BD3B /* libPods-GHDaily-OC.a */; };
 		D1724866FE48FEB57C7EC33D /* libPods-GHDailyDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73812225F9CCDE5714C5967F /* libPods-GHDailyDemo.a */; };
 		D6DE762421FDB75200D0D022 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE762321FDB75200D0D022 /* AppDelegate.m */; };
 		D6DE762721FDB75200D0D022 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE762621FDB75200D0D022 /* ViewController.m */; };
@@ -22,10 +23,14 @@
 		D6DE765E21FDB90E00D0D022 /* GHBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE765D21FDB90E00D0D022 /* GHBaseViewController.m */; };
 		D6DE766121FDB92C00D0D022 /* GHHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE766021FDB92C00D0D022 /* GHHomeViewController.m */; };
 		D6DE766421FDBC1F00D0D022 /* GHHomeNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE766321FDBC1F00D0D022 /* GHHomeNewsCell.m */; };
+		D6DE767021FDBFF000D0D022 /* GHHTTPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE766E21FDBFF000D0D022 /* GHHTTPManager.m */; };
+		D6DE767321FDC18600D0D022 /* GHHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE767221FDC18600D0D022 /* GHHomeModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D2ABCCEABA6EAEE7F3442FE /* Pods-GHDaily-OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHDaily-OC.release.xcconfig"; path = "Pods/Target Support Files/Pods-GHDaily-OC/Pods-GHDaily-OC.release.xcconfig"; sourceTree = "<group>"; };
 		73812225F9CCDE5714C5967F /* libPods-GHDailyDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GHDailyDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91FFE698423AC9DC3D94494C /* Pods-GHDaily-OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHDaily-OC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GHDaily-OC/Pods-GHDaily-OC.debug.xcconfig"; sourceTree = "<group>"; };
 		987B88A36C2903376FEBDC0F /* Pods-GHDailyDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHDailyDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GHDailyDemo/Pods-GHDailyDemo.release.xcconfig"; sourceTree = "<group>"; };
 		D6DE761F21FDB75200D0D022 /* GHDailyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHDailyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6DE762221FDB75200D0D022 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -52,6 +57,12 @@
 		D6DE766021FDB92C00D0D022 /* GHHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHHomeViewController.m; sourceTree = "<group>"; };
 		D6DE766221FDBC1F00D0D022 /* GHHomeNewsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHHomeNewsCell.h; sourceTree = "<group>"; };
 		D6DE766321FDBC1F00D0D022 /* GHHomeNewsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHHomeNewsCell.m; sourceTree = "<group>"; };
+		D6DE766621FDBC9300D0D022 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		D6DE766E21FDBFF000D0D022 /* GHHTTPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHHTTPManager.m; sourceTree = "<group>"; };
+		D6DE766F21FDBFF000D0D022 /* GHHTTPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHHTTPManager.h; sourceTree = "<group>"; };
+		D6DE767121FDC18600D0D022 /* GHHomeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHHomeModel.h; sourceTree = "<group>"; };
+		D6DE767221FDC18600D0D022 /* GHHomeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHHomeModel.m; sourceTree = "<group>"; };
+		E9EDFC132C17D40D1FA5BD3B /* libPods-GHDaily-OC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GHDaily-OC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB692E6B65518E6E64D87657 /* Pods-GHDailyDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHDailyDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GHDailyDemo/Pods-GHDailyDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6DA5E27C92C33464C995C3E /* libPods-GHDaily-OC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				73812225F9CCDE5714C5967F /* libPods-GHDailyDemo.a */,
+				E9EDFC132C17D40D1FA5BD3B /* libPods-GHDaily-OC.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -87,6 +100,8 @@
 			children = (
 				EB692E6B65518E6E64D87657 /* Pods-GHDailyDemo.debug.xcconfig */,
 				987B88A36C2903376FEBDC0F /* Pods-GHDailyDemo.release.xcconfig */,
+				91FFE698423AC9DC3D94494C /* Pods-GHDaily-OC.debug.xcconfig */,
+				3D2ABCCEABA6EAEE7F3442FE /* Pods-GHDaily-OC.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -144,6 +159,8 @@
 		D6DE765221FDB87100D0D022 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				D6DE766721FDBE3D00D0D022 /* Tool */,
+				D6DE766521FDBC8400D0D022 /* Other */,
 				D6DE765721FDB8D900D0D022 /* Base */,
 				D6DE765321FDB88A00D0D022 /* Home */,
 			);
@@ -172,6 +189,8 @@
 		D6DE765521FDB88A00D0D022 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D6DE767121FDC18600D0D022 /* GHHomeModel.h */,
+				D6DE767221FDC18600D0D022 /* GHHomeModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -204,6 +223,23 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		D6DE766521FDBC8400D0D022 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				D6DE766621FDBC9300D0D022 /* PrefixHeader.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		D6DE766721FDBE3D00D0D022 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				D6DE766F21FDBFF000D0D022 /* GHHTTPManager.h */,
+				D6DE766E21FDBFF000D0D022 /* GHHTTPManager.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -230,9 +266,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6DE765121FDB7D800D0D022 /* Build configuration list for PBXNativeTarget "GHDaily-OC" */;
 			buildPhases = (
+				73F9A50458D63467A25CC246 /* [CP] Check Pods Manifest.lock */,
 				D6DE763821FDB7D700D0D022 /* Sources */,
 				D6DE763921FDB7D700D0D022 /* Frameworks */,
 				D6DE763A21FDB7D700D0D022 /* Resources */,
+				7F6E808FE3006EB25A354DC5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -302,6 +340,52 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		73F9A50458D63467A25CC246 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GHDaily-OC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F6E808FE3006EB25A354DC5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GHDaily-OC/Pods-GHDaily-OC-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GHDaily-OC/Pods-GHDaily-OC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		AC309EB4C56CAB9120199BD7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -366,8 +450,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6DE765E21FDB90E00D0D022 /* GHBaseViewController.m in Sources */,
+				D6DE767321FDC18600D0D022 /* GHHomeModel.m in Sources */,
 				D6DE766121FDB92C00D0D022 /* GHHomeViewController.m in Sources */,
 				D6DE764E21FDB7D800D0D022 /* main.m in Sources */,
+				D6DE767021FDBFF000D0D022 /* GHHTTPManager.m in Sources */,
 				D6DE765B21FDB8F200D0D022 /* GHNavigationController.m in Sources */,
 				D6DE766421FDBC1F00D0D022 /* GHHomeNewsCell.m in Sources */,
 				D6DE764021FDB7D700D0D022 /* AppDelegate.m in Sources */,
@@ -552,10 +638,13 @@
 		};
 		D6DE764F21FDB7D800D0D022 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91FFE698423AC9DC3D94494C /* Pods-GHDaily-OC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "GHDaily-OC/App/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = "GHDaily-OC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -568,10 +657,13 @@
 		};
 		D6DE765021FDB7D800D0D022 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D2ABCCEABA6EAEE7F3442FE /* Pods-GHDaily-OC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "GHDaily-OC/App/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = "GHDaily-OC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

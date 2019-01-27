@@ -1,0 +1,21 @@
+//
+//  PrefixHeader.pch
+//  GHDailyDemo
+//
+//  Created by zhaozhiwei on 2019/1/27.
+//  Copyright © 2019年 GHome. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "Masonry.h"
+#import "MBProgressHUD.h"
+#import "MJExtension.h"
+#import "MJRefresh.h"
+#import "SDCycleScrollView.h"
+
+
+#define kUrl @"http://app3.qdaily.com/app3/homes/index/0.json?"
+
+#endif /* PrefixHeader_pch */

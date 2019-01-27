@@ -7,6 +7,7 @@
 //
 
 #import "GHHomeViewController.h"
+#import "GHHTTPManager.h"
 
 @interface GHHomeViewController()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic , strong) UITableView *tableView;
@@ -17,8 +18,18 @@
     [super viewDidLoad];
 
     self.view.backgroundColor = [UIColor redColor];
+    
+    [self loadData];
 }
 
+- (void)loadData {
+    
+    [[GHHTTPManager sharedManager] getDataWithUrl:kUrl parameter:nil finishedBlock:^(id responseObject, NSError *error) {
+        NSLog(@"responseObject%@",responseObject);
+        NSLog(@"error%@",error);
+
+    }];
+}
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return 10;
 }
