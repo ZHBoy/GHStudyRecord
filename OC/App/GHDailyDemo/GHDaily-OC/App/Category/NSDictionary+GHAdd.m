@@ -15,15 +15,15 @@
     NSMutableString *string = [NSMutableString string];
     
     //{}
-    [string appendString:@"{"];
+    [string appendString:@"{\n"];
     
     //拼接key--value
     [self enumerateKeysAndObjectsUsingBlock:^(id  _Nonnull key, id  _Nonnull obj, BOOL * _Nonnull stop) {
+        
         [string appendFormat:@"\t%@ = %@;\n", key, obj];
-
     }];
     
-    [string appendString:@"}\n"];
+    [string appendString:@"                                    }"];
     //删除逗号
     //从后往前搜索 得到的是搜索到的第一个符号的位置
     NSRange range = [string rangeOfString:@"," options:NSBackwardsSearch];

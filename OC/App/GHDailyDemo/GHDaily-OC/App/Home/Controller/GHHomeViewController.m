@@ -35,9 +35,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-    self.extendedLayoutIncludesOpaqueBars = NO;
-    self.edgesForExtendedLayout = UIRectEdgeLeft | UIRectEdgeBottom | UIRectEdgeRight;
     
     self.view.backgroundColor = [UIColor whiteColor];
     
@@ -52,13 +49,10 @@
 }
 
 - (void)loadData {
-    [[GHHTTPManager sharedManager] getDataWithUrl:@"http://app3.qdaily.com/app3/articles/60664.html" parameter:nil finishedBlock:^(id responseObject, NSError *error) {
-        NSLog(@"responseObject%@",responseObject);
-        NSLog(@"error%@",error);
 
-    }];
     
     [[GHHTTPManager sharedManager] getDataWithUrl:kUrl parameter:nil finishedBlock:^(id responseObject, NSError *error) {
+        NSLog(@"responseObject%@",responseObject);
         GHHomeModel *homeModel = [[GHHomeModel alloc]initWithDict:responseObject];
         self.homeModel = homeModel;
         self.header.banners = homeModel.response.banners;
