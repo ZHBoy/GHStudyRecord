@@ -10,7 +10,7 @@
 
 @implementation NSArray (GHAdd)
 
-
+#pragma mark - 格式化数组中的数据
 - (NSString *)descriptionWithLocale:(id)locale indent:(NSUInteger)level {
     NSMutableString *mStr = [NSMutableString string];
     NSMutableString *tab = [NSMutableString stringWithString:@""];

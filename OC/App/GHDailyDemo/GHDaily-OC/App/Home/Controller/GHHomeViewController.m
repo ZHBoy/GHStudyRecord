@@ -50,9 +50,9 @@
 - (void)loadData {
 
     [[GHHTTPManager sharedManager] getDataWithUrl:kUrl parameter:nil finishedBlock:^(id responseObject, NSError *error) {
-        NSLog(@"responseObject%@",responseObject);
         GHHomeModel *homeModel = [[GHHomeModel alloc]initWithDict:responseObject];
         self.homeModel = homeModel;
+        NSLog(@"homeModel%@",self.homeModel);
         self.header.banners = homeModel.response.banners;
     }];
 }

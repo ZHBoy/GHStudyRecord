@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		C6DA5E27C92C33464C995C3E /* libPods-GHDaily-OC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9EDFC132C17D40D1FA5BD3B /* libPods-GHDaily-OC.a */; };
 		D1724866FE48FEB57C7EC33D /* libPods-GHDailyDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73812225F9CCDE5714C5967F /* libPods-GHDailyDemo.a */; };
+		D6D5E956220A342600AD4CDA /* NSObject+GHAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D5E955220A342600AD4CDA /* NSObject+GHAdd.m */; };
+		D6D5E958220A360B00AD4CDA /* GHDailyDemo.md in Resources */ = {isa = PBXBuildFile; fileRef = D6D5E957220A360B00AD4CDA /* GHDailyDemo.md */; };
 		D6DE762421FDB75200D0D022 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE762321FDB75200D0D022 /* AppDelegate.m */; };
 		D6DE762721FDB75200D0D022 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE762621FDB75200D0D022 /* ViewController.m */; };
 		D6DE762A21FDB75200D0D022 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6DE762821FDB75200D0D022 /* Main.storyboard */; };
@@ -51,6 +53,9 @@
 		73812225F9CCDE5714C5967F /* libPods-GHDailyDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GHDailyDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91FFE698423AC9DC3D94494C /* Pods-GHDaily-OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHDaily-OC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GHDaily-OC/Pods-GHDaily-OC.debug.xcconfig"; sourceTree = "<group>"; };
 		987B88A36C2903376FEBDC0F /* Pods-GHDailyDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHDailyDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GHDailyDemo/Pods-GHDailyDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D6D5E954220A342600AD4CDA /* NSObject+GHAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+GHAdd.h"; sourceTree = "<group>"; };
+		D6D5E955220A342600AD4CDA /* NSObject+GHAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GHAdd.m"; sourceTree = "<group>"; };
+		D6D5E957220A360B00AD4CDA /* GHDailyDemo.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = GHDailyDemo.md; sourceTree = SOURCE_ROOT; };
 		D6DE761F21FDB75200D0D022 /* GHDailyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHDailyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6DE762221FDB75200D0D022 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D6DE762321FDB75200D0D022 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -202,6 +207,7 @@
 		D6DE763D21FDB7D700D0D022 /* GHDaily-OC */ = {
 			isa = PBXGroup;
 			children = (
+				D6D5E957220A360B00AD4CDA /* GHDailyDemo.md */,
 				D6DE765221FDB87100D0D022 /* App */,
 				D6DE763E21FDB7D700D0D022 /* AppDelegate.h */,
 				D6DE763F21FDB7D700D0D022 /* AppDelegate.m */,
@@ -347,6 +353,8 @@
 				D6DE76AA21FDE5E400D0D022 /* NSArray+GHAdd.m */,
 				D6DE76AC21FDE89100D0D022 /* NSDictionary+GHAdd.h */,
 				D6DE76AD21FDE89100D0D022 /* NSDictionary+GHAdd.m */,
+				D6D5E954220A342600AD4CDA /* NSObject+GHAdd.h */,
+				D6D5E955220A342600AD4CDA /* NSObject+GHAdd.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -443,6 +451,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6D5E958220A360B00AD4CDA /* GHDailyDemo.md in Resources */,
 				D6DE764B21FDB7D700D0D022 /* LaunchScreen.storyboard in Resources */,
 				D6DE764821FDB7D700D0D022 /* Assets.xcassets in Resources */,
 			);
@@ -586,6 +595,7 @@
 				D6DE76A321FDCE5B00D0D022 /* GHHomeHeader.m in Sources */,
 				D6DE767F21FDC38800D0D022 /* GHHomePostModel.m in Sources */,
 				D6DE76AE21FDE89100D0D022 /* NSDictionary+GHAdd.m in Sources */,
+				D6D5E956220A342600AD4CDA /* NSObject+GHAdd.m in Sources */,
 				D6DE76B121FDF69600D0D022 /* GHWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

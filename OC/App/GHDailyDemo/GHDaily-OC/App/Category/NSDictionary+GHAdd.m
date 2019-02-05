@@ -10,8 +10,8 @@
 
 @implementation NSDictionary (GHAdd)
 
-- (NSString *)descriptionWithLocale:(id)locale indent:(NSUInteger)level
-{
+#pragma mark - 格式化字典中的数据
+- (NSString *)descriptionWithLocale:(id)locale indent:(NSUInteger)level {
     NSMutableString *mStr = [NSMutableString string];
     NSMutableString *tab = [NSMutableString stringWithString:@""];
     for (int i = 0; i < level; i++) {
