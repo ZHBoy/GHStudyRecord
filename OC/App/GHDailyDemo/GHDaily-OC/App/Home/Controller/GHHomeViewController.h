@@ -10,6 +10,10 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+/**
+ 首页控制器
+ */
+
 @interface GHHomeViewController : GHBaseViewController
 
 @end

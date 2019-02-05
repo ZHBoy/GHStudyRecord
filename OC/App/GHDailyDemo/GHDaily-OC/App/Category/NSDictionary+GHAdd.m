@@ -10,28 +10,25 @@
 
 @implementation NSDictionary (GHAdd)
 
-//重写系统的方法控制输出
-- (NSString *)descriptionWithLocale:(id)locale indent:(NSUInteger)level {
-    NSMutableString *string = [NSMutableString string];
-    
-    //{}
-    [string appendString:@"{\n"];
-    
-    //拼接key--value
-    [self enumerateKeysAndObjectsUsingBlock:^(id  _Nonnull key, id  _Nonnull obj, BOOL * _Nonnull stop) {
-        
-        [string appendFormat:@"\t%@ = %@;\n", key, obj];
-    }];
-    
-    [string appendString:@"                                    }"];
-    //删除逗号
-    //从后往前搜索 得到的是搜索到的第一个符号的位置
-    NSRange range = [string rangeOfString:@"," options:NSBackwardsSearch];
-    if (range.location != NSNotFound) {
-        [string deleteCharactersInRange:range];
+- (NSString *)descriptionWithLocale:(id)locale indent:(NSUInteger)level
+{
+    NSMutableString *mStr = [NSMutableString string];
+    NSMutableString *tab = [NSMutableString stringWithString:@""];
+    for (int i = 0; i < level; i++) {
+        [tab appendString:@"\t"];
     }
-    
-    return string;
+    [mStr appendString:@"{\n"];
+    NSArray *allKey = self.allKeys;
+    for (int i = 0; i < allKey.count; i++) {
+        id value = self[allKey[i]];
+        NSString *lastSymbol = (allKey.count == i + 1) ? @"":@";";
+        if ([value respondsToSelector:@selector(descriptionWithLocale:indent:)]) {
+            [mStr appendFormat:@"\t%@%@ = %@%@\n",tab,allKey[i],[value descriptionWithLocale:locale indent:level + 1],lastSymbol];
+        } else {
+            [mStr appendFormat:@"\t%@%@ = %@%@\n",tab,allKey[i],value,lastSymbol];
+        }
+    }
+    [mStr appendFormat:@"%@}",tab];
+    return mStr;
 }
-
 @end

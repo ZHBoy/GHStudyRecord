@@ -30,7 +30,6 @@
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     self.navigationController.navigationBarHidden = YES;
-  
 }
 
 - (void)viewDidLoad {
@@ -50,7 +49,6 @@
 
 - (void)loadData {
 
-    
     [[GHHTTPManager sharedManager] getDataWithUrl:kUrl parameter:nil finishedBlock:^(id responseObject, NSError *error) {
         NSLog(@"responseObject%@",responseObject);
         GHHomeModel *homeModel = [[GHHomeModel alloc]initWithDict:responseObject];
@@ -58,6 +56,7 @@
         self.header.banners = homeModel.response.banners;
     }];
 }
+
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return 10;
 }
