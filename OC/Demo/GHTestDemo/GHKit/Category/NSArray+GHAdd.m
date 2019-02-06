@@ -9,6 +9,14 @@
 #import "NSArray+GHAdd.h"
 
 @implementation NSArray (GHAdd)
+#pragma mark - 处理数组越界
+- (id)by_ObjectAtIndex:(NSUInteger)index {
+    if (self.count > index) {
+        return [self objectAtIndex:index];
+    } else {
+        return nil;
+    }
+}
 
 #pragma mark - 格式化数组中的数据
 - (NSString *)descriptionWithLocale:(id)locale indent:(NSUInteger)level {

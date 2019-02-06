@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    GHView *view = [[GHView alloc]initWithFrame:CGRectMake(100, 100, 100, 100)];
+    GHView *view = [[GHView alloc]initWithFrame:CGRectMake(100, 100, 100, 20)];
  
     [self.view addSubview:view];
 }

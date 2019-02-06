@@ -12,6 +12,9 @@
 		D6D5E95F220AAF1600AD4CDA /* NSObject+GHAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D5E959220AAF1600AD4CDA /* NSObject+GHAdd.m */; };
 		D6D5E960220AAF1600AD4CDA /* NSDictionary+GHAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D5E95B220AAF1600AD4CDA /* NSDictionary+GHAdd.m */; };
 		D6D5E961220AAF1600AD4CDA /* NSArray+GHAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D5E95C220AAF1600AD4CDA /* NSArray+GHAdd.m */; };
+		D6D5E966220AB00300AD4CDA /* GHCarouselMap.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D5E965220AB00300AD4CDA /* GHCarouselMap.m */; };
+		D6D5E96A220AB40800AD4CDA /* GHLoadImagesHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D5E969220AB40800AD4CDA /* GHLoadImagesHelper.m */; };
+		D6D5E96D220AB8DD00AD4CDA /* GHCarouselMapItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D5E96C220AB8DD00AD4CDA /* GHCarouselMapItem.m */; };
 		D6DE758C21FBE97600D0D022 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE758B21FBE97600D0D022 /* AppDelegate.m */; };
 		D6DE758F21FBE97600D0D022 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE758E21FBE97600D0D022 /* ViewController.m */; };
 		D6DE759221FBE97600D0D022 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6DE759021FBE97600D0D022 /* Main.storyboard */; };
@@ -50,6 +53,12 @@
 		D6D5E95C220AAF1600AD4CDA /* NSArray+GHAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+GHAdd.m"; sourceTree = "<group>"; };
 		D6D5E95D220AAF1600AD4CDA /* NSArray+GHAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+GHAdd.h"; sourceTree = "<group>"; };
 		D6D5E95E220AAF1600AD4CDA /* NSObject+GHAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+GHAdd.h"; sourceTree = "<group>"; };
+		D6D5E964220AB00300AD4CDA /* GHCarouselMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHCarouselMap.h; sourceTree = "<group>"; };
+		D6D5E965220AB00300AD4CDA /* GHCarouselMap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHCarouselMap.m; sourceTree = "<group>"; };
+		D6D5E968220AB40800AD4CDA /* GHLoadImagesHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHLoadImagesHelper.h; sourceTree = "<group>"; };
+		D6D5E969220AB40800AD4CDA /* GHLoadImagesHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHLoadImagesHelper.m; sourceTree = "<group>"; };
+		D6D5E96B220AB8DD00AD4CDA /* GHCarouselMapItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHCarouselMapItem.h; sourceTree = "<group>"; };
+		D6D5E96C220AB8DD00AD4CDA /* GHCarouselMapItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHCarouselMapItem.m; sourceTree = "<group>"; };
 		D6DE758721FBE97600D0D022 /* GHTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6DE758A21FBE97600D0D022 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D6DE758B21FBE97600D0D022 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -135,6 +144,27 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D6D5E962220AAFAB00AD4CDA /* GHCustomView */ = {
+			isa = PBXGroup;
+			children = (
+				D6D5E963220AAFED00AD4CDA /* GHCarouselMap */,
+			);
+			path = GHCustomView;
+			sourceTree = "<group>";
+		};
+		D6D5E963220AAFED00AD4CDA /* GHCarouselMap */ = {
+			isa = PBXGroup;
+			children = (
+				D6D5E964220AB00300AD4CDA /* GHCarouselMap.h */,
+				D6D5E965220AB00300AD4CDA /* GHCarouselMap.m */,
+				D6D5E96B220AB8DD00AD4CDA /* GHCarouselMapItem.h */,
+				D6D5E96C220AB8DD00AD4CDA /* GHCarouselMapItem.m */,
+				D6D5E968220AB40800AD4CDA /* GHLoadImagesHelper.h */,
+				D6D5E969220AB40800AD4CDA /* GHLoadImagesHelper.m */,
+			);
+			path = GHCarouselMap;
+			sourceTree = "<group>";
+		};
 		D6DE757E21FBE97600D0D022 = {
 			isa = PBXGroup;
 			children = (
@@ -193,6 +223,7 @@
 		D6DE75EC21FBF2C200D0D022 /* GHKit */ = {
 			isa = PBXGroup;
 			children = (
+				D6D5E962220AAFAB00AD4CDA /* GHCustomView */,
 				D6DE760C21FC123400D0D022 /* Category */,
 				D6DE75ED21FBF2C200D0D022 /* AppDelegate.h */,
 				D6DE75EE21FBF2C200D0D022 /* AppDelegate.m */,
@@ -543,9 +574,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6D5E96A220AB40800AD4CDA /* GHLoadImagesHelper.m in Sources */,
+				D6D5E96D220AB8DD00AD4CDA /* GHCarouselMapItem.m in Sources */,
 				D6DE75F221FBF2C200D0D022 /* ViewController.m in Sources */,
 				D6DE75FD21FBF2C300D0D022 /* main.m in Sources */,
 				D6DE760F21FC125500D0D022 /* UIView+GHAdd.m in Sources */,
+				D6D5E966220AB00300AD4CDA /* GHCarouselMap.m in Sources */,
 				D6D5E960220AAF1600AD4CDA /* NSDictionary+GHAdd.m in Sources */,
 				D6DE761421FC544A00D0D022 /* UILabel+GHAdd.m in Sources */,
 				D6D5E961220AAF1600AD4CDA /* NSArray+GHAdd.m in Sources */,
@@ -801,7 +835,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KZ9JB9ZT4S;
 				INFOPLIST_FILE = GHKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -817,7 +853,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KZ9JB9ZT4S;
 				INFOPLIST_FILE = GHKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

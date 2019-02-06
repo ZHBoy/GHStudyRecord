@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface NSArray (GHAdd)
-
+- (id)by_ObjectAtIndex:(NSUInteger)index;
 @end
 
 NS_ASSUME_NONNULL_END
