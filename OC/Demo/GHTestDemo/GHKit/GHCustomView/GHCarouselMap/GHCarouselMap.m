@@ -130,7 +130,7 @@
         // 把导航条设置为半透明状态
         [_pageControl setBackgroundColor:[[UIColor blackColor] colorWithAlphaComponent:0.2]];
         // 设置分页控制器的事件
-        [_pageControl addTarget:self action:@selector(pageControlTouched) forControlEvents:UIControlEventValueChanged];
+//        [_pageControl addTarget:self action:@selector(pageControlTouched) forControlEvents:UIControlEventValueChanged];
     }
     return _pageControl;
 }
