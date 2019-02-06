@@ -73,7 +73,11 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
        body: new TabBarView(
         controller: _tabController,
         children: <Widget>[
-            Text('1'),
+            Text('关注'),
+            Text('推荐'),
+            Text('热情'),
+            Text('视频'),
+
         ],
       ),
     );

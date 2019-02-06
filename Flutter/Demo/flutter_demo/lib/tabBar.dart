@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import './app/home.dart';
+import './app/Home/home.dart';
 import './app/idae.dart';
 import './app/message.dart';
 import './app/school.dart';
@@ -44,7 +44,7 @@ class _tabBarState extends State<tabBar> {
       ),
       bottomNavigationBar: CupertinoTabBar(
         backgroundColor: Colors.white,
-        activeColor: Colors.teal,
+        activeColor: Colors.blue,
         items: <BottomNavigationBarItem>[
           BottomNavigationBarItem(icon: getTabIcon(0), title: Text('首页')),
           BottomNavigationBarItem(icon: getTabIcon(1), title: Text('想法')),
