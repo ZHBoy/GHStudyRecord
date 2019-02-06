@@ -21,6 +21,11 @@
 		D6D5E97E220B1E8800AD4CDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6D5E97D220B1E8800AD4CDA /* Assets.xcassets */; };
 		D6D5E981220B1E8800AD4CDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6D5E97F220B1E8800AD4CDA /* LaunchScreen.storyboard */; };
 		D6D5E984220B1E8800AD4CDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D5E983220B1E8800AD4CDA /* main.m */; };
+		D6D5E98B220B20C900AD4CDA /* GHWaterFall.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D5E98A220B20C900AD4CDA /* GHWaterFall.m */; };
+		D6D5E98C220B20C900AD4CDA /* GHWaterFall.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D5E98A220B20C900AD4CDA /* GHWaterFall.m */; };
+		D6D5E98F220B238400AD4CDA /* DMNormalCollectionViewCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D5E98E220B238400AD4CDA /* DMNormalCollectionViewCellModel.m */; };
+		D6D5E990220B238400AD4CDA /* DMNormalCollectionViewCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D5E98E220B238400AD4CDA /* DMNormalCollectionViewCellModel.m */; };
+		D6D5E994220B25AC00AD4CDA /* UITableView+GHAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D5E993220B25AC00AD4CDA /* UITableView+GHAdd.m */; };
 		D6DE758C21FBE97600D0D022 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE758B21FBE97600D0D022 /* AppDelegate.m */; };
 		D6DE758F21FBE97600D0D022 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE758E21FBE97600D0D022 /* ViewController.m */; };
 		D6DE759221FBE97600D0D022 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6DE759021FBE97600D0D022 /* Main.storyboard */; };
@@ -75,6 +80,12 @@
 		D6D5E980220B1E8800AD4CDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6D5E982220B1E8800AD4CDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6D5E983220B1E8800AD4CDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6D5E989220B20C900AD4CDA /* GHWaterFall.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHWaterFall.h; sourceTree = "<group>"; };
+		D6D5E98A220B20C900AD4CDA /* GHWaterFall.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHWaterFall.m; sourceTree = "<group>"; };
+		D6D5E98D220B238400AD4CDA /* DMNormalCollectionViewCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMNormalCollectionViewCellModel.h; sourceTree = "<group>"; };
+		D6D5E98E220B238400AD4CDA /* DMNormalCollectionViewCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMNormalCollectionViewCellModel.m; sourceTree = "<group>"; };
+		D6D5E992220B25AC00AD4CDA /* UITableView+GHAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+GHAdd.h"; sourceTree = "<group>"; };
+		D6D5E993220B25AC00AD4CDA /* UITableView+GHAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+GHAdd.m"; sourceTree = "<group>"; };
 		D6DE758721FBE97600D0D022 /* GHTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6DE758A21FBE97600D0D022 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D6DE758B21FBE97600D0D022 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -170,6 +181,7 @@
 		D6D5E962220AAFAB00AD4CDA /* GHCustomView */ = {
 			isa = PBXGroup;
 			children = (
+				D6D5E988220B20A600AD4CDA /* GHWaterFall  */,
 				D6D5E963220AAFED00AD4CDA /* GHCarouselMap */,
 			);
 			path = GHCustomView;
@@ -195,6 +207,8 @@
 				D6D5E975220B1E8700AD4CDA /* AppDelegate.m */,
 				D6D5E977220B1E8700AD4CDA /* ViewController.h */,
 				D6D5E978220B1E8700AD4CDA /* ViewController.m */,
+				D6D5E98D220B238400AD4CDA /* DMNormalCollectionViewCellModel.h */,
+				D6D5E98E220B238400AD4CDA /* DMNormalCollectionViewCellModel.m */,
 				D6D5E97A220B1E8700AD4CDA /* Main.storyboard */,
 				D6D5E97D220B1E8800AD4CDA /* Assets.xcassets */,
 				D6D5E97F220B1E8800AD4CDA /* LaunchScreen.storyboard */,
@@ -204,13 +218,22 @@
 			path = GHCollectionVIew;
 			sourceTree = "<group>";
 		};
+		D6D5E988220B20A600AD4CDA /* GHWaterFall  */ = {
+			isa = PBXGroup;
+			children = (
+				D6D5E989220B20C900AD4CDA /* GHWaterFall.h */,
+				D6D5E98A220B20C900AD4CDA /* GHWaterFall.m */,
+			);
+			path = "GHWaterFall ";
+			sourceTree = "<group>";
+		};
 		D6DE757E21FBE97600D0D022 = {
 			isa = PBXGroup;
 			children = (
+				D6D5E973220B1E8600AD4CDA /* GHCollectionVIew */,
 				D6DE758921FBE97600D0D022 /* GHTestDemo */,
 				D6DE75D121FBEF5E00D0D022 /* GHMasonryDemo */,
 				D6DE75EC21FBF2C200D0D022 /* GHKit */,
-				D6D5E973220B1E8600AD4CDA /* GHCollectionVIew */,
 				D6DE758821FBE97600D0D022 /* Products */,
 				1D1CF2FF7F8A3F9D049ECA9E /* Pods */,
 				C8FB006731FE65C5C41E0F4A /* Frameworks */,
@@ -301,6 +324,8 @@
 				D6DE760E21FC125500D0D022 /* UIView+GHAdd.m */,
 				D6DE761221FC544A00D0D022 /* UILabel+GHAdd.h */,
 				D6DE761321FC544A00D0D022 /* UILabel+GHAdd.m */,
+				D6D5E992220B25AC00AD4CDA /* UITableView+GHAdd.h */,
+				D6D5E993220B25AC00AD4CDA /* UITableView+GHAdd.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -624,8 +649,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6D5E979220B1E8700AD4CDA /* ViewController.m in Sources */,
+				D6D5E98C220B20C900AD4CDA /* GHWaterFall.m in Sources */,
 				D6D5E984220B1E8800AD4CDA /* main.m in Sources */,
 				D6D5E976220B1E8700AD4CDA /* AppDelegate.m in Sources */,
+				D6D5E990220B238400AD4CDA /* DMNormalCollectionViewCellModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -657,13 +684,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6D5E96A220AB40800AD4CDA /* GHLoadImagesHelper.m in Sources */,
+				D6D5E98B220B20C900AD4CDA /* GHWaterFall.m in Sources */,
 				D6D5E96D220AB8DD00AD4CDA /* GHCarouselMapItem.m in Sources */,
 				D6DE75F221FBF2C200D0D022 /* ViewController.m in Sources */,
 				D6DE75FD21FBF2C300D0D022 /* main.m in Sources */,
 				D6DE760F21FC125500D0D022 /* UIView+GHAdd.m in Sources */,
 				D6D5E966220AB00300AD4CDA /* GHCarouselMap.m in Sources */,
 				D6D5E960220AAF1600AD4CDA /* NSDictionary+GHAdd.m in Sources */,
+				D6D5E994220B25AC00AD4CDA /* UITableView+GHAdd.m in Sources */,
 				D6DE761421FC544A00D0D022 /* UILabel+GHAdd.m in Sources */,
+				D6D5E98F220B238400AD4CDA /* DMNormalCollectionViewCellModel.m in Sources */,
 				D6D5E961220AAF1600AD4CDA /* NSArray+GHAdd.m in Sources */,
 				D6D5E95F220AAF1600AD4CDA /* NSObject+GHAdd.m in Sources */,
 				D6DE75EF21FBF2C200D0D022 /* AppDelegate.m in Sources */,
