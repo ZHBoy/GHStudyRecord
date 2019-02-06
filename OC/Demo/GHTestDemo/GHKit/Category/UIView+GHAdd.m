@@ -6,7 +6,7 @@
 //  Copyright © 2019年 GHome. All rights reserved.
 //
 
-#import "UIView+Category.h"
+#import "UIView+GHAdd.h"
 #import <objc/runtime.h>
 #import "AppDelegate.h"
 
@@ -16,7 +16,7 @@ static NSString *GHActionKey = @"GHActionKey";
 
 @end
 
-@implementation UIView (Category)
+@implementation UIView (GHAdd)
 
 - (void)gh_addShadow {
     

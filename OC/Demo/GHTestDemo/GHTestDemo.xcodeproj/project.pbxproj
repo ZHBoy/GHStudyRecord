@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		CA12B7C31E622C95E10DDC8B /* Pods_GHTestDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E87F29714C28832D5B984B /* Pods_GHTestDemo.framework */; };
 		D2268584D77874981DCA2F0A /* Pods_GHMasonryDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 894711426C04CCEE3AE3DEF6 /* Pods_GHMasonryDemo.framework */; };
+		D6D5E95F220AAF1600AD4CDA /* NSObject+GHAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D5E959220AAF1600AD4CDA /* NSObject+GHAdd.m */; };
+		D6D5E960220AAF1600AD4CDA /* NSDictionary+GHAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D5E95B220AAF1600AD4CDA /* NSDictionary+GHAdd.m */; };
+		D6D5E961220AAF1600AD4CDA /* NSArray+GHAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D5E95C220AAF1600AD4CDA /* NSArray+GHAdd.m */; };
 		D6DE758C21FBE97600D0D022 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE758B21FBE97600D0D022 /* AppDelegate.m */; };
 		D6DE758F21FBE97600D0D022 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE758E21FBE97600D0D022 /* ViewController.m */; };
 		D6DE759221FBE97600D0D022 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6DE759021FBE97600D0D022 /* Main.storyboard */; };
@@ -28,10 +31,10 @@
 		D6DE75FA21FBF2C300D0D022 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6DE75F821FBF2C300D0D022 /* LaunchScreen.storyboard */; };
 		D6DE75FD21FBF2C300D0D022 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE75FC21FBF2C300D0D022 /* main.m */; };
 		D6DE760B21FBF3A000D0D022 /* GHView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE760A21FBF3A000D0D022 /* GHView.m */; };
-		D6DE760F21FC125500D0D022 /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE760E21FC125500D0D022 /* UIView+Category.m */; };
-		D6DE761021FC1E5900D0D022 /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE760E21FC125500D0D022 /* UIView+Category.m */; };
-		D6DE761421FC544A00D0D022 /* UILabel+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE761321FC544A00D0D022 /* UILabel+Category.m */; };
-		D6DE761521FC5D4300D0D022 /* UILabel+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE761321FC544A00D0D022 /* UILabel+Category.m */; };
+		D6DE760F21FC125500D0D022 /* UIView+GHAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE760E21FC125500D0D022 /* UIView+GHAdd.m */; };
+		D6DE761021FC1E5900D0D022 /* UIView+GHAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE760E21FC125500D0D022 /* UIView+GHAdd.m */; };
+		D6DE761421FC544A00D0D022 /* UILabel+GHAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE761321FC544A00D0D022 /* UILabel+GHAdd.m */; };
+		D6DE761521FC5D4300D0D022 /* UILabel+GHAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE761321FC544A00D0D022 /* UILabel+GHAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +44,12 @@
 		C4E87F29714C28832D5B984B /* Pods_GHTestDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GHTestDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB20EAE927560FD4309A206 /* Pods-GHTestDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHTestDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GHTestDemo/Pods-GHTestDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		D4B5C398CC8E9CC320AC6B21 /* Pods-GHMasonryDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHMasonryDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GHMasonryDemo/Pods-GHMasonryDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D6D5E959220AAF1600AD4CDA /* NSObject+GHAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GHAdd.m"; sourceTree = "<group>"; };
+		D6D5E95A220AAF1600AD4CDA /* NSDictionary+GHAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+GHAdd.h"; sourceTree = "<group>"; };
+		D6D5E95B220AAF1600AD4CDA /* NSDictionary+GHAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+GHAdd.m"; sourceTree = "<group>"; };
+		D6D5E95C220AAF1600AD4CDA /* NSArray+GHAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+GHAdd.m"; sourceTree = "<group>"; };
+		D6D5E95D220AAF1600AD4CDA /* NSArray+GHAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+GHAdd.h"; sourceTree = "<group>"; };
+		D6D5E95E220AAF1600AD4CDA /* NSObject+GHAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+GHAdd.h"; sourceTree = "<group>"; };
 		D6DE758721FBE97600D0D022 /* GHTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6DE758A21FBE97600D0D022 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D6DE758B21FBE97600D0D022 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -73,10 +82,10 @@
 		D6DE75FC21FBF2C300D0D022 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D6DE760921FBF3A000D0D022 /* GHView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHView.h; sourceTree = "<group>"; };
 		D6DE760A21FBF3A000D0D022 /* GHView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHView.m; sourceTree = "<group>"; };
-		D6DE760D21FC125500D0D022 /* UIView+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
-		D6DE760E21FC125500D0D022 /* UIView+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
-		D6DE761221FC544A00D0D022 /* UILabel+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+Category.h"; sourceTree = "<group>"; };
-		D6DE761321FC544A00D0D022 /* UILabel+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Category.m"; sourceTree = "<group>"; };
+		D6DE760D21FC125500D0D022 /* UIView+GHAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+GHAdd.h"; sourceTree = "<group>"; };
+		D6DE760E21FC125500D0D022 /* UIView+GHAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+GHAdd.m"; sourceTree = "<group>"; };
+		D6DE761221FC544A00D0D022 /* UILabel+GHAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+GHAdd.h"; sourceTree = "<group>"; };
+		D6DE761321FC544A00D0D022 /* UILabel+GHAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+GHAdd.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,10 +219,16 @@
 		D6DE760C21FC123400D0D022 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				D6DE760D21FC125500D0D022 /* UIView+Category.h */,
-				D6DE760E21FC125500D0D022 /* UIView+Category.m */,
-				D6DE761221FC544A00D0D022 /* UILabel+Category.h */,
-				D6DE761321FC544A00D0D022 /* UILabel+Category.m */,
+				D6D5E95D220AAF1600AD4CDA /* NSArray+GHAdd.h */,
+				D6D5E95C220AAF1600AD4CDA /* NSArray+GHAdd.m */,
+				D6D5E95A220AAF1600AD4CDA /* NSDictionary+GHAdd.h */,
+				D6D5E95B220AAF1600AD4CDA /* NSDictionary+GHAdd.m */,
+				D6D5E95E220AAF1600AD4CDA /* NSObject+GHAdd.h */,
+				D6D5E959220AAF1600AD4CDA /* NSObject+GHAdd.m */,
+				D6DE760D21FC125500D0D022 /* UIView+GHAdd.h */,
+				D6DE760E21FC125500D0D022 /* UIView+GHAdd.m */,
+				D6DE761221FC544A00D0D022 /* UILabel+GHAdd.h */,
+				D6DE761321FC544A00D0D022 /* UILabel+GHAdd.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -518,8 +533,8 @@
 				D6DE75D721FBEF5E00D0D022 /* ViewController.m in Sources */,
 				D6DE760B21FBF3A000D0D022 /* GHView.m in Sources */,
 				D6DE75E221FBEF5F00D0D022 /* main.m in Sources */,
-				D6DE761021FC1E5900D0D022 /* UIView+Category.m in Sources */,
-				D6DE761521FC5D4300D0D022 /* UILabel+Category.m in Sources */,
+				D6DE761021FC1E5900D0D022 /* UIView+GHAdd.m in Sources */,
+				D6DE761521FC5D4300D0D022 /* UILabel+GHAdd.m in Sources */,
 				D6DE75D421FBEF5E00D0D022 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -530,8 +545,11 @@
 			files = (
 				D6DE75F221FBF2C200D0D022 /* ViewController.m in Sources */,
 				D6DE75FD21FBF2C300D0D022 /* main.m in Sources */,
-				D6DE760F21FC125500D0D022 /* UIView+Category.m in Sources */,
-				D6DE761421FC544A00D0D022 /* UILabel+Category.m in Sources */,
+				D6DE760F21FC125500D0D022 /* UIView+GHAdd.m in Sources */,
+				D6D5E960220AAF1600AD4CDA /* NSDictionary+GHAdd.m in Sources */,
+				D6DE761421FC544A00D0D022 /* UILabel+GHAdd.m in Sources */,
+				D6D5E961220AAF1600AD4CDA /* NSArray+GHAdd.m in Sources */,
+				D6D5E95F220AAF1600AD4CDA /* NSObject+GHAdd.m in Sources */,
 				D6DE75EF21FBF2C200D0D022 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

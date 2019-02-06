@@ -15,7 +15,7 @@ typedef NS_ENUM (NSUInteger,GHLabelStatus) {
     GHLabelStatusSeleted,
 };
 typedef void(^GHLabelClickBlock)(void);
-@interface UILabel (Category)
+@interface UILabel (GHAdd)
 
 @property (nonatomic , copy) UIColor *textNormalColor;
 @property (nonatomic , copy) UIColor *textSeletedColor;

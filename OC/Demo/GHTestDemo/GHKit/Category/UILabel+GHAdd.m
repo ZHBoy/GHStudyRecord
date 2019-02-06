@@ -6,7 +6,7 @@
 //  Copyright © 2019年 GHome. All rights reserved.
 //
 
-#import "UILabel+Category.h"
+#import "UILabel+GHAdd.h"
 #import <objc/runtime.h>
 
 @interface UILabel()
@@ -21,7 +21,7 @@ static NSString *GHTextNormalColorKey = @"GHTextNormalColorKey";
 static NSString *GHTextSeletedColorKey = @"GHTextSeletedColorKey";
 static NSString *GHLabelSeletedKey = @"GHLabelSeletedKey";
 
-@implementation UILabel (Category)
+@implementation UILabel (GHAdd)
 
 - (void)setSeleted:(BOOL)seleted {
     NSNumber *seletedNum = [NSNumber numberWithBool:seleted];

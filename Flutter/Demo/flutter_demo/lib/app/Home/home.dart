@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import './homeListView.dart';
 
 class HomePage extends StatefulWidget {
   _HomePageState createState() => _HomePageState();
@@ -73,7 +74,7 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
        body: new TabBarView(
         controller: _tabController,
         children: <Widget>[
-            Text('关注'),
+            HomeListView(),
             Text('推荐'),
             Text('热情'),
             Text('视频'),

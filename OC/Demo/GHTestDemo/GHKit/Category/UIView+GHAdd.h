@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UIView (Category)
+@interface UIView (GHAdd)
 
 typedef void(^GHActionBlock)(UIView *view);
 

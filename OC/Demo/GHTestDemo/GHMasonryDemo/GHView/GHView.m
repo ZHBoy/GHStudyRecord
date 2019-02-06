@@ -8,8 +8,8 @@
 
 #import "GHView.h"
 #import "Masonry.h"
-#import "UIView+Category.h"
-#import "UILabel+Category.h"
+#import "UIView+GHAdd.h"
+#import "UILabel+GHAdd.h"
 
 
 @interface GHView()
@@ -52,7 +52,6 @@
     return _label;
 }
 - (void)tap: (UITapGestureRecognizer *)gesture {
-    
     
     NSLog(@"222222");
     
