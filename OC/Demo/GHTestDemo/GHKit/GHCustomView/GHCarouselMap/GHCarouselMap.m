@@ -16,8 +16,8 @@
 @property (nonatomic , assign) CGFloat preOffsetX;
 @property (nonatomic , assign) CGFloat preOffsetY;
 @property (nonatomic , assign) NSInteger pageCount;
-@property (nonatomic , strong) UIPageControl *pageControl;  // 分页控件
-@property (nonatomic, strong) NSTimer *timer;
+@property (nonatomic , strong) UIPageControl *pageControl;
+@property (nonatomic , strong) NSTimer *timer;
 
 @end
 @implementation GHCarouselMap
@@ -49,6 +49,7 @@
 }
 
 - (void)reloadData {
+    
     if (self.dataSource && [self.dataSource respondsToSelector:@selector(countOfCellForCarouselMap:)]) {
         self.pageCount = [self.dataSource countOfCellForCarouselMap:self];
     }

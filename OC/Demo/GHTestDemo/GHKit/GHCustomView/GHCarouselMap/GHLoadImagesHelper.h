@@ -17,6 +17,7 @@ typedef void(^GHLoadImagesHelperBlock)(NSArray *imagesArray);
 + (instancetype)sharedManager;
 
 - (void)loadImagesWithArray: (NSArray *)array actionBlock: (GHLoadImagesHelperBlock)actionBlock;
+
 @end
 
 NS_ASSUME_NONNULL_END

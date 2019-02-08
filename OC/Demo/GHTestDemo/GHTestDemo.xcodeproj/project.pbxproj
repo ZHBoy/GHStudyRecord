@@ -24,6 +24,7 @@
 		D6D5E98C220B20C900AD4CDA /* GHWaterFall.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D5E98A220B20C900AD4CDA /* GHWaterFall.m */; };
 		D6D5E994220B25AC00AD4CDA /* UITableView+GHAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D5E993220B25AC00AD4CDA /* UITableView+GHAdd.m */; };
 		D6D5E998220D551600AD4CDA /* ExchangeValue.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D5E997220D551600AD4CDA /* ExchangeValue.m */; };
+		D6D5E9EC220D95BA00AD4CDA /* NSString+GHAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D5E9EB220D95BA00AD4CDA /* NSString+GHAdd.m */; };
 		D6DE758C21FBE97600D0D022 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE758B21FBE97600D0D022 /* AppDelegate.m */; };
 		D6DE758F21FBE97600D0D022 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE758E21FBE97600D0D022 /* ViewController.m */; };
 		D6DE759221FBE97600D0D022 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6DE759021FBE97600D0D022 /* Main.storyboard */; };
@@ -82,6 +83,8 @@
 		D6D5E993220B25AC00AD4CDA /* UITableView+GHAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+GHAdd.m"; sourceTree = "<group>"; };
 		D6D5E996220D551600AD4CDA /* ExchangeValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExchangeValue.h; sourceTree = "<group>"; };
 		D6D5E997220D551600AD4CDA /* ExchangeValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExchangeValue.m; sourceTree = "<group>"; };
+		D6D5E9EA220D95BA00AD4CDA /* NSString+GHAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+GHAdd.h"; sourceTree = "<group>"; };
+		D6D5E9EB220D95BA00AD4CDA /* NSString+GHAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+GHAdd.m"; sourceTree = "<group>"; };
 		D6DE758721FBE97600D0D022 /* GHTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6DE758A21FBE97600D0D022 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D6DE758B21FBE97600D0D022 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -328,6 +331,8 @@
 				D6DE761321FC544A00D0D022 /* UILabel+GHAdd.m */,
 				D6D5E992220B25AC00AD4CDA /* UITableView+GHAdd.h */,
 				D6D5E993220B25AC00AD4CDA /* UITableView+GHAdd.m */,
+				D6D5E9EA220D95BA00AD4CDA /* NSString+GHAdd.h */,
+				D6D5E9EB220D95BA00AD4CDA /* NSString+GHAdd.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -694,6 +699,7 @@
 				D6D5E960220AAF1600AD4CDA /* NSDictionary+GHAdd.m in Sources */,
 				D6D5E994220B25AC00AD4CDA /* UITableView+GHAdd.m in Sources */,
 				D6DE761421FC544A00D0D022 /* UILabel+GHAdd.m in Sources */,
+				D6D5E9EC220D95BA00AD4CDA /* NSString+GHAdd.m in Sources */,
 				D6D5E961220AAF1600AD4CDA /* NSArray+GHAdd.m in Sources */,
 				D6D5E95F220AAF1600AD4CDA /* NSObject+GHAdd.m in Sources */,
 				D6DE75EF21FBF2C200D0D022 /* AppDelegate.m in Sources */,
