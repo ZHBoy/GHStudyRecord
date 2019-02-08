@@ -7,36 +7,39 @@
 //
 
 #import "ViewController.h"
-#import "GHCarouselMap.h"
 
-@interface ViewController ()<GHCarouselMapDelegate,GHCarouselMapDataSource>
+@interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
+@property (nonatomic , strong) UITableView *tableView;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
-    
     [super viewDidLoad];
     
-    GHCarouselMap *carouselMap = [[GHCarouselMap alloc]initWithFrame:CGRectMake(0, 88, [UIScreen mainScreen].bounds.size.width, 44)];
-    carouselMap.scrollDirection = GHCarouselMapScrollDirectionVertical;
-    carouselMap.dataSource = self;
-    carouselMap.dalegate = self;
-
-    [self.view addSubview:carouselMap];
+    [self.view addSubview:self.tableView];
 }
 
-- (NSInteger)countOfCellForCarouselMap:(GHCarouselMap *)carouselMap {
-    return 4;
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 10;
 }
 
-- (UIView *)carouselMap:(GHCarouselMap *)carouselMap cellAtIndex:(NSInteger)index {
-    
-    UILabel *label = [[UILabel alloc]init];
-    label.textColor = [UIColor blackColor];
-    label.text = [NSString stringWithFormat:@" ★ 第%ld个hahahhahaahhahah",(long)index];
- 
-    return label;
-    
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"UITableViewCellID"];
+    cell.backgroundColor = indexPath.row % 2 ? [UIColor redColor]:[UIColor orangeColor];
+    return cell;
 }
+
+- (UITableView *)tableView {
+    if (_tableView == nil) {
+        _tableView = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
+        _tableView.delegate = self;
+        _tableView.dataSource = self;
+        _tableView.contentInset = UIEdgeInsetsMake(100, 0, 0, 0);
+        _tableView.tableFooterView = [UIView new];
+        [_tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"UITableViewCellID"];
+    }
+    return _tableView;
+}
+
 @end

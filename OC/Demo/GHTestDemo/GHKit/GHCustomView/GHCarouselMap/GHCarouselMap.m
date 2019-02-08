@@ -48,6 +48,51 @@
     _scrollDirection = scrollDirection;
 }
 
+- (void)reloadData {
+    if (self.dataSource && [self.dataSource respondsToSelector:@selector(countOfCellForCarouselMap:)]) {
+        self.pageCount = [self.dataSource countOfCellForCarouselMap:self];
+    }
+    
+    if (self.scrollDirection == GHCarouselMapScrollDirectionHorizontal) {
+        _scrollView.contentSize = CGSizeMake(CGRectGetWidth(self.frame) * (self.pageCount + 2), CGRectGetHeight(self.frame));
+    } else {
+        _scrollView.contentSize = CGSizeMake(0, CGRectGetHeight(self.frame) * (self.pageCount + 2));
+    }
+    
+    for (int i = 0; i < self.pageCount + 2; i++) {
+        // 添加control,设置偏移位置
+        CGFloat x = 0;
+        CGFloat y = 0;
+        if (self.scrollDirection == GHCarouselMapScrollDirectionHorizontal) {
+            x = self.frame.size.width * i;
+            y = 0;
+            
+        } else {
+            _scrollView.contentSize = CGSizeMake(0, CGRectGetHeight(self.frame) * (self.pageCount + 2));
+            x = 0;
+            y = self.frame.size.height * i;
+            
+        }
+        
+        UIControl *control = [[UIControl alloc] initWithFrame:CGRectMake(x,y, self.frame.size.width, self.frame.size.height)];
+        
+        UIView *pageView = nil;
+        if (i == 0) {
+            pageView = [self.dataSource carouselMap:self cellAtIndex:self.pageCount - 1];
+        } else if (i == _pageCount + 1){
+            pageView = [self.dataSource carouselMap:self cellAtIndex:0];
+        }else{
+            pageView = [self.dataSource carouselMap:self cellAtIndex:i - 1];
+        }
+        pageView.frame = CGRectMake(0, 0, self.frame.size.width, self.frame.size.height);
+        
+        [control addTarget:self action:@selector(clickControl:) forControlEvents:UIControlEventTouchUpInside];
+        
+        [control addSubview:pageView];
+        
+        [_scrollView addSubview:control];
+    }
+}
 - (void)layoutSubviews {
     
     [super layoutSubviews];
@@ -64,8 +109,9 @@
         self.timer = [NSTimer scheduledTimerWithTimeInterval:self.timeInterval target:self selector:@selector(changePageLeft) userInfo:nil repeats:YES];
 
     }
-    
+    [[NSRunLoop currentRunLoop] addTimer:self.timer forMode:NSRunLoopCommonModes];
 }
+
 - (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView {
     self.preOffsetX = scrollView.contentOffset.x;
     self.preOffsetY = scrollView.contentOffset.y;

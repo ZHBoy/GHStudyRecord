@@ -43,6 +43,8 @@ typedef NS_ENUM (NSUInteger,GHCarouselMapScrollDirection) {
 @property (nonatomic , assign) GHCarouselMapScrollDirection scrollDirection;
 /** 滚动建个 */
 @property (nonatomic , assign) NSTimeInterval timeInterval;
+
+- (void)reloadData;
 @end
 
 NS_ASSUME_NONNULL_END
