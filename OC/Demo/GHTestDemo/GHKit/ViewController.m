@@ -8,10 +8,8 @@
 
 #import "ViewController.h"
 #import "GHCarouselMap.h"
-#import "UITableView+GHAdd.h"
 
-@interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
-@property (nonatomic , strong) UITableView *tableView;
+@interface ViewController ()<GHCarouselMapDelegate,GHCarouselMapDataSource>
 @end
 
 @implementation ViewController
@@ -19,26 +17,26 @@
 - (void)viewDidLoad {
     
     [super viewDidLoad];
-    [self.view addSubview:self.tableView];
-    NSLog(@"%@",self.tableView.ghDataArray);
-    self.tableView.ghDataArray = @[@"1",@"2",@"2"];
-}
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 10;
+    
+    GHCarouselMap *carouselMap = [[GHCarouselMap alloc]initWithFrame:CGRectMake(0, 88, [UIScreen mainScreen].bounds.size.width, 44)];
+    carouselMap.scrollDirection = GHCarouselMapScrollDirectionVertical;
+    carouselMap.dataSource = self;
+    carouselMap.dalegate = self;
+
+    [self.view addSubview:carouselMap];
 }
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"UITableViewCellID"];
-    cell.textLabel.text = [self.tableView gh_objectWithArray:self.tableView.ghDataArray AtIndex:indexPath.row];
-    return cell;
+- (NSInteger)countOfCellForCarouselMap:(GHCarouselMap *)carouselMap {
+    return 4;
 }
-- (UITableView *)tableView {
-    if (_tableView == nil) {
-        _tableView = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
-        _tableView.delegate = self;
-        _tableView.dataSource = self;
-        [_tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"UITableViewCellID"];
-    }
-    return _tableView;
+
+- (UIView *)carouselMap:(GHCarouselMap *)carouselMap cellAtIndex:(NSInteger)index {
+    
+    UILabel *label = [[UILabel alloc]init];
+    label.textColor = [UIColor blackColor];
+    label.text = [NSString stringWithFormat:@" ★ 第%ld个hahahhahaahhahah",(long)index];
+ 
+    return label;
+    
 }
 @end

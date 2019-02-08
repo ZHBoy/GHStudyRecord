@@ -36,7 +36,7 @@
     [string appendFormat:@"]"];
     return string;
 }
-//因为ivar_getName得到的是一个带有下划线的名字，去掉下划线看起来更漂亮
+/// 因为ivar_getName得到的是一个带有下划线的名字，去掉下划线看起来更漂亮
 - (NSString *)delLine:(NSString *)string{
     if ([string hasPrefix:@"_"]) {
         return [string substringFromIndex:1];

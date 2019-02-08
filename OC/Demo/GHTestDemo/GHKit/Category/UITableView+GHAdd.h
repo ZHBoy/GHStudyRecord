@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UITableView (GHAdd)
 
-@property (nonatomic , strong) NSArray *ghDataArray;
+@property (nonatomic , weak) NSArray *gh_dataArray;
 
 - (id)gh_objectWithArray: (NSArray *)array AtIndex:(NSUInteger)index;
 @end

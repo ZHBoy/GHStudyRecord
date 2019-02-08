@@ -9,6 +9,13 @@
 #import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
+
+/** 滚动方向枚举 */
+typedef NS_ENUM (NSUInteger,GHCarouselMapScrollDirection) {
+    GHCarouselMapScrollDirectionHorizontal = 0,/** 横向 默认 */
+    GHCarouselMapScrollDirectionVertical/** 纵向 */
+};
+
 @class GHCarouselMap;
 @protocol GHCarouselMapDataSource <NSObject>
 @required
@@ -32,7 +39,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic , weak) id <GHCarouselMapDataSource> dataSource;
 @property (nonatomic , weak) id <GHCarouselMapDelegate> dalegate;
-
+/** 滚动方向 */
+@property (nonatomic , assign) GHCarouselMapScrollDirection scrollDirection;
+/** 滚动建个 */
+@property (nonatomic , assign) NSTimeInterval timeInterval;
 @end
 
 NS_ASSUME_NONNULL_END

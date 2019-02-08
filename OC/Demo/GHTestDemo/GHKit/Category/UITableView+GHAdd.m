@@ -9,19 +9,19 @@
 #import "UITableView+GHAdd.h"
 #import <objc/runtime.h>
 
-static NSString *ghDataArrayKey = @"ghDataArrayKey";
+static NSString *gh_dataArrayKey = @"gh_dataArrayKey";
 
 @implementation UITableView (GHAdd)
 
-- (void)setGhDataArray:(NSArray *)ghDataArray {
-    objc_setAssociatedObject(self, &ghDataArrayKey, ghDataArray, OBJC_ASSOCIATION_RETAIN);
+- (void)setGh_dataArray:(NSArray *)gh_dataArray {
+    objc_setAssociatedObject(self, &gh_dataArrayKey, gh_dataArray, OBJC_ASSOCIATION_RETAIN);
 }
 
-- (NSArray *)ghDataArray {
-    NSArray *array = objc_getAssociatedObject(self, &ghDataArrayKey);
+- (NSArray *)gh_dataArray {
+    NSArray *array = objc_getAssociatedObject(self, &gh_dataArrayKey);
     if (array == nil) {
         array = [NSArray array];
-        objc_setAssociatedObject(self, &ghDataArrayKey, array, OBJC_ASSOCIATION_RETAIN);
+        objc_setAssociatedObject(self, &gh_dataArrayKey, array, OBJC_ASSOCIATION_RETAIN);
     }
     return array;
 }

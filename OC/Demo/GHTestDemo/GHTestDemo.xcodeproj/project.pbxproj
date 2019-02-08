@@ -14,7 +14,6 @@
 		D6D5E961220AAF1600AD4CDA /* NSArray+GHAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D5E95C220AAF1600AD4CDA /* NSArray+GHAdd.m */; };
 		D6D5E966220AB00300AD4CDA /* GHCarouselMap.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D5E965220AB00300AD4CDA /* GHCarouselMap.m */; };
 		D6D5E96A220AB40800AD4CDA /* GHLoadImagesHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D5E969220AB40800AD4CDA /* GHLoadImagesHelper.m */; };
-		D6D5E96D220AB8DD00AD4CDA /* GHCarouselMapItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D5E96C220AB8DD00AD4CDA /* GHCarouselMapItem.m */; };
 		D6D5E976220B1E8700AD4CDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D5E975220B1E8700AD4CDA /* AppDelegate.m */; };
 		D6D5E979220B1E8700AD4CDA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D5E978220B1E8700AD4CDA /* ViewController.m */; };
 		D6D5E97C220B1E8700AD4CDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6D5E97A220B1E8700AD4CDA /* Main.storyboard */; };
@@ -26,6 +25,7 @@
 		D6D5E98F220B238400AD4CDA /* DMNormalCollectionViewCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D5E98E220B238400AD4CDA /* DMNormalCollectionViewCellModel.m */; };
 		D6D5E990220B238400AD4CDA /* DMNormalCollectionViewCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D5E98E220B238400AD4CDA /* DMNormalCollectionViewCellModel.m */; };
 		D6D5E994220B25AC00AD4CDA /* UITableView+GHAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D5E993220B25AC00AD4CDA /* UITableView+GHAdd.m */; };
+		D6D5E998220D551600AD4CDA /* ExchangeValue.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D5E997220D551600AD4CDA /* ExchangeValue.m */; };
 		D6DE758C21FBE97600D0D022 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE758B21FBE97600D0D022 /* AppDelegate.m */; };
 		D6DE758F21FBE97600D0D022 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE758E21FBE97600D0D022 /* ViewController.m */; };
 		D6DE759221FBE97600D0D022 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6DE759021FBE97600D0D022 /* Main.storyboard */; };
@@ -68,8 +68,6 @@
 		D6D5E965220AB00300AD4CDA /* GHCarouselMap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHCarouselMap.m; sourceTree = "<group>"; };
 		D6D5E968220AB40800AD4CDA /* GHLoadImagesHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHLoadImagesHelper.h; sourceTree = "<group>"; };
 		D6D5E969220AB40800AD4CDA /* GHLoadImagesHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHLoadImagesHelper.m; sourceTree = "<group>"; };
-		D6D5E96B220AB8DD00AD4CDA /* GHCarouselMapItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHCarouselMapItem.h; sourceTree = "<group>"; };
-		D6D5E96C220AB8DD00AD4CDA /* GHCarouselMapItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHCarouselMapItem.m; sourceTree = "<group>"; };
 		D6D5E972220B1E8600AD4CDA /* GHCollectionVIew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHCollectionVIew.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6D5E974220B1E8700AD4CDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D6D5E975220B1E8700AD4CDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -86,6 +84,8 @@
 		D6D5E98E220B238400AD4CDA /* DMNormalCollectionViewCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMNormalCollectionViewCellModel.m; sourceTree = "<group>"; };
 		D6D5E992220B25AC00AD4CDA /* UITableView+GHAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+GHAdd.h"; sourceTree = "<group>"; };
 		D6D5E993220B25AC00AD4CDA /* UITableView+GHAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+GHAdd.m"; sourceTree = "<group>"; };
+		D6D5E996220D551600AD4CDA /* ExchangeValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExchangeValue.h; sourceTree = "<group>"; };
+		D6D5E997220D551600AD4CDA /* ExchangeValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExchangeValue.m; sourceTree = "<group>"; };
 		D6DE758721FBE97600D0D022 /* GHTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6DE758A21FBE97600D0D022 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D6DE758B21FBE97600D0D022 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -181,6 +181,7 @@
 		D6D5E962220AAFAB00AD4CDA /* GHCustomView */ = {
 			isa = PBXGroup;
 			children = (
+				D6D5E995220D54E700AD4CDA /* GHTool */,
 				D6D5E988220B20A600AD4CDA /* GHWaterFall  */,
 				D6D5E963220AAFED00AD4CDA /* GHCarouselMap */,
 			);
@@ -192,8 +193,6 @@
 			children = (
 				D6D5E964220AB00300AD4CDA /* GHCarouselMap.h */,
 				D6D5E965220AB00300AD4CDA /* GHCarouselMap.m */,
-				D6D5E96B220AB8DD00AD4CDA /* GHCarouselMapItem.h */,
-				D6D5E96C220AB8DD00AD4CDA /* GHCarouselMapItem.m */,
 				D6D5E968220AB40800AD4CDA /* GHLoadImagesHelper.h */,
 				D6D5E969220AB40800AD4CDA /* GHLoadImagesHelper.m */,
 			);
@@ -225,6 +224,15 @@
 				D6D5E98A220B20C900AD4CDA /* GHWaterFall.m */,
 			);
 			path = "GHWaterFall ";
+			sourceTree = "<group>";
+		};
+		D6D5E995220D54E700AD4CDA /* GHTool */ = {
+			isa = PBXGroup;
+			children = (
+				D6D5E996220D551600AD4CDA /* ExchangeValue.h */,
+				D6D5E997220D551600AD4CDA /* ExchangeValue.m */,
+			);
+			path = GHTool;
 			sourceTree = "<group>";
 		};
 		D6DE757E21FBE97600D0D022 = {
@@ -685,7 +693,7 @@
 			files = (
 				D6D5E96A220AB40800AD4CDA /* GHLoadImagesHelper.m in Sources */,
 				D6D5E98B220B20C900AD4CDA /* GHWaterFall.m in Sources */,
-				D6D5E96D220AB8DD00AD4CDA /* GHCarouselMapItem.m in Sources */,
+				D6D5E998220D551600AD4CDA /* ExchangeValue.m in Sources */,
 				D6DE75F221FBF2C200D0D022 /* ViewController.m in Sources */,
 				D6DE75FD21FBF2C300D0D022 /* main.m in Sources */,
 				D6DE760F21FC125500D0D022 /* UIView+GHAdd.m in Sources */,
