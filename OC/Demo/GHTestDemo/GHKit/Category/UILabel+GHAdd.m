@@ -30,7 +30,6 @@ static NSString *GHLabelSeletedKey = @"GHLabelSeletedKey";
         self.textColor = self.textSeletedColor;
     } else {
         self.textColor = self.textNormalColor;;
-
     }
 }
 
