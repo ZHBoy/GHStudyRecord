@@ -9,6 +9,12 @@ class HomeListView extends StatefulWidget {
 class _HomeListViewState extends State<HomeListView> {
   @override
   Widget build(BuildContext context) {
-    return HomeListItem();
+    return ListView.builder(
+        itemCount: 10,
+        itemBuilder: (BuildContext context,int index){
+          return HomeListItem();
+        },
+    );
+      
   }
 }
