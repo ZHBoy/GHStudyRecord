@@ -10,13 +10,6 @@ class Request {
 
   static Future<dynamic> get({String action, Map params}) async {
     return Request.mock(action: action, params: params);
-
-//     var dio = Request.createDio();
-//     Response<Map> response = await dio.get(action, data: params);
-//     var data = response.data['data'];
-//     print(data);
-//
-//     return data;
   }
 
   static Future<dynamic> post({String action, Map params}) async {
