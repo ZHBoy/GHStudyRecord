@@ -7,75 +7,150 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D6FDF47C221D5A8F00219799 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FDF47B221D5A8F00219799 /* AppDelegate.m */; };
-		D6FDF47F221D5A8F00219799 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FDF47E221D5A8F00219799 /* ViewController.m */; };
-		D6FDF482221D5A8F00219799 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6FDF480221D5A8F00219799 /* Main.storyboard */; };
-		D6FDF484221D5A9000219799 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6FDF483221D5A9000219799 /* Assets.xcassets */; };
-		D6FDF487221D5A9000219799 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6FDF485221D5A9000219799 /* LaunchScreen.storyboard */; };
-		D6FDF48A221D5A9000219799 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FDF489221D5A9000219799 /* main.m */; };
-		D6FDF498221D5AAC00219799 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FDF497221D5AAC00219799 /* AppDelegate.m */; };
-		D6FDF49B221D5AAC00219799 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FDF49A221D5AAC00219799 /* ViewController.m */; };
-		D6FDF49E221D5AAC00219799 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6FDF49C221D5AAC00219799 /* Main.storyboard */; };
-		D6FDF4A0221D5AAD00219799 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6FDF49F221D5AAD00219799 /* Assets.xcassets */; };
-		D6FDF4A3221D5AAD00219799 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6FDF4A1221D5AAD00219799 /* LaunchScreen.storyboard */; };
-		D6FDF4A6221D5AAD00219799 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FDF4A5221D5AAD00219799 /* main.m */; };
-		D6FDF4B2221D5AB800219799 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FDF4B1221D5AB800219799 /* AppDelegate.m */; };
-		D6FDF4B5221D5AB800219799 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FDF4B4221D5AB800219799 /* ViewController.m */; };
-		D6FDF4B8221D5AB800219799 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6FDF4B6221D5AB800219799 /* Main.storyboard */; };
-		D6FDF4BA221D5AB800219799 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6FDF4B9221D5AB800219799 /* Assets.xcassets */; };
-		D6FDF4BD221D5AB800219799 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6FDF4BB221D5AB800219799 /* LaunchScreen.storyboard */; };
-		D6FDF4C0221D5AB800219799 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FDF4BF221D5AB800219799 /* main.m */; };
+		D6FDF515221D7FCC00219799 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FDF514221D7FCC00219799 /* AppDelegate.m */; };
+		D6FDF518221D7FCC00219799 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FDF517221D7FCC00219799 /* ViewController.m */; };
+		D6FDF51B221D7FCC00219799 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6FDF519221D7FCC00219799 /* Main.storyboard */; };
+		D6FDF51D221D7FCD00219799 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6FDF51C221D7FCD00219799 /* Assets.xcassets */; };
+		D6FDF520221D7FCD00219799 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6FDF51E221D7FCD00219799 /* LaunchScreen.storyboard */; };
+		D6FDF523221D7FCD00219799 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FDF522221D7FCD00219799 /* main.m */; };
+		D6FDF531221D7FE700219799 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FDF530221D7FE700219799 /* AppDelegate.m */; };
+		D6FDF534221D7FE700219799 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FDF533221D7FE700219799 /* ViewController.m */; };
+		D6FDF537221D7FE700219799 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6FDF535221D7FE700219799 /* Main.storyboard */; };
+		D6FDF539221D7FE700219799 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6FDF538221D7FE700219799 /* Assets.xcassets */; };
+		D6FDF53C221D7FE700219799 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6FDF53A221D7FE700219799 /* LaunchScreen.storyboard */; };
+		D6FDF53F221D7FE700219799 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FDF53E221D7FE700219799 /* main.m */; };
+		D6FDF549221D7FE800219799 /* GHPeoplesNetwork_SwiftTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FDF548221D7FE800219799 /* GHPeoplesNetwork_SwiftTests.m */; };
+		D6FDF554221D7FE800219799 /* GHPeoplesNetwork_SwiftUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FDF553221D7FE800219799 /* GHPeoplesNetwork_SwiftUITests.m */; };
+		D6FDF567221D7FF600219799 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FDF566221D7FF600219799 /* AppDelegate.m */; };
+		D6FDF56A221D7FF600219799 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FDF569221D7FF600219799 /* ViewController.m */; };
+		D6FDF56D221D7FF600219799 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6FDF56B221D7FF600219799 /* Main.storyboard */; };
+		D6FDF56F221D7FF700219799 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6FDF56E221D7FF700219799 /* Assets.xcassets */; };
+		D6FDF572221D7FF700219799 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6FDF570221D7FF700219799 /* LaunchScreen.storyboard */; };
+		D6FDF575221D7FF700219799 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FDF574221D7FF700219799 /* main.m */; };
+		D6FDF57F221D7FF700219799 /* GHPeoplesNetwork_OCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FDF57E221D7FF700219799 /* GHPeoplesNetwork_OCTests.m */; };
+		D6FDF58A221D7FF700219799 /* GHPeoplesNetwork_OCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FDF589221D7FF700219799 /* GHPeoplesNetwork_OCUITests.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D6FDF545221D7FE800219799 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6FDF508221D7FCC00219799 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6FDF52C221D7FE600219799;
+			remoteInfo = "GHPeoplesNetwork-Swift";
+		};
+		D6FDF550221D7FE800219799 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6FDF508221D7FCC00219799 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6FDF52C221D7FE600219799;
+			remoteInfo = "GHPeoplesNetwork-Swift";
+		};
+		D6FDF57B221D7FF700219799 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6FDF508221D7FCC00219799 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6FDF562221D7FF600219799;
+			remoteInfo = "GHPeoplesNetwork-OC";
+		};
+		D6FDF586221D7FF700219799 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6FDF508221D7FCC00219799 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6FDF562221D7FF600219799;
+			remoteInfo = "GHPeoplesNetwork-OC";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		D6FDF477221D5A8F00219799 /* GHPeoplesNetworkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHPeoplesNetworkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D6FDF47A221D5A8F00219799 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D6FDF47B221D5A8F00219799 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D6FDF47D221D5A8F00219799 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D6FDF47E221D5A8F00219799 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D6FDF481221D5A8F00219799 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D6FDF483221D5A9000219799 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D6FDF486221D5A9000219799 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D6FDF488221D5A9000219799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D6FDF489221D5A9000219799 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D6FDF494221D5AAC00219799 /* GHPeoplesNetwork-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GHPeoplesNetwork-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D6FDF496221D5AAC00219799 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D6FDF497221D5AAC00219799 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D6FDF499221D5AAC00219799 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D6FDF49A221D5AAC00219799 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D6FDF49D221D5AAC00219799 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D6FDF49F221D5AAD00219799 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D6FDF4A2221D5AAD00219799 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D6FDF4A4221D5AAD00219799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D6FDF4A5221D5AAD00219799 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D6FDF4AE221D5AB700219799 /* GHPeoplesNetwork-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GHPeoplesNetwork-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D6FDF4B0221D5AB800219799 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D6FDF4B1221D5AB800219799 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D6FDF4B3221D5AB800219799 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D6FDF4B4221D5AB800219799 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D6FDF4B7221D5AB800219799 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D6FDF4B9221D5AB800219799 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D6FDF4BC221D5AB800219799 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D6FDF4BE221D5AB800219799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D6FDF4BF221D5AB800219799 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6FDF510221D7FCC00219799 /* GHPeoplesNetworkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHPeoplesNetworkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6FDF513221D7FCC00219799 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D6FDF514221D7FCC00219799 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D6FDF516221D7FCC00219799 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D6FDF517221D7FCC00219799 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D6FDF51A221D7FCC00219799 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6FDF51C221D7FCD00219799 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6FDF51F221D7FCD00219799 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6FDF521221D7FCD00219799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6FDF522221D7FCD00219799 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6FDF52D221D7FE600219799 /* GHPeoplesNetwork-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GHPeoplesNetwork-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6FDF52F221D7FE700219799 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D6FDF530221D7FE700219799 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D6FDF532221D7FE700219799 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D6FDF533221D7FE700219799 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D6FDF536221D7FE700219799 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6FDF538221D7FE700219799 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6FDF53B221D7FE700219799 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6FDF53D221D7FE700219799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6FDF53E221D7FE700219799 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6FDF544221D7FE800219799 /* GHPeoplesNetwork-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GHPeoplesNetwork-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6FDF548221D7FE800219799 /* GHPeoplesNetwork_SwiftTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHPeoplesNetwork_SwiftTests.m; sourceTree = "<group>"; };
+		D6FDF54A221D7FE800219799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6FDF54F221D7FE800219799 /* GHPeoplesNetwork-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GHPeoplesNetwork-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6FDF553221D7FE800219799 /* GHPeoplesNetwork_SwiftUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHPeoplesNetwork_SwiftUITests.m; sourceTree = "<group>"; };
+		D6FDF555221D7FE800219799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6FDF563221D7FF600219799 /* GHPeoplesNetwork-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GHPeoplesNetwork-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6FDF565221D7FF600219799 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D6FDF566221D7FF600219799 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D6FDF568221D7FF600219799 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D6FDF569221D7FF600219799 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D6FDF56C221D7FF600219799 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6FDF56E221D7FF700219799 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6FDF571221D7FF700219799 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6FDF573221D7FF700219799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6FDF574221D7FF700219799 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6FDF57A221D7FF700219799 /* GHPeoplesNetwork-OCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GHPeoplesNetwork-OCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6FDF57E221D7FF700219799 /* GHPeoplesNetwork_OCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHPeoplesNetwork_OCTests.m; sourceTree = "<group>"; };
+		D6FDF580221D7FF700219799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6FDF585221D7FF700219799 /* GHPeoplesNetwork-OCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GHPeoplesNetwork-OCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6FDF589221D7FF700219799 /* GHPeoplesNetwork_OCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHPeoplesNetwork_OCUITests.m; sourceTree = "<group>"; };
+		D6FDF58B221D7FF700219799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D6FDF474221D5A8F00219799 /* Frameworks */ = {
+		D6FDF50D221D7FCC00219799 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6FDF491221D5AAC00219799 /* Frameworks */ = {
+		D6FDF52A221D7FE600219799 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6FDF4AB221D5AB700219799 /* Frameworks */ = {
+		D6FDF541221D7FE800219799 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FDF54C221D7FE800219799 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FDF560221D7FF600219799 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FDF577221D7FF700219799 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FDF582221D7FF700219799 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -85,84 +160,128 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D6FDF46E221D5A8F00219799 = {
+		D6FDF507221D7FCC00219799 = {
 			isa = PBXGroup;
 			children = (
-				D6FDF479221D5A8F00219799 /* GHPeoplesNetworkDemo */,
-				D6FDF495221D5AAC00219799 /* GHPeoplesNetwork-OC */,
-				D6FDF4AF221D5AB800219799 /* GHPeoplesNetwork-Swift */,
-				D6FDF478221D5A8F00219799 /* Products */,
+				D6FDF512221D7FCC00219799 /* GHPeoplesNetworkDemo */,
+				D6FDF52E221D7FE700219799 /* GHPeoplesNetwork-Swift */,
+				D6FDF547221D7FE800219799 /* GHPeoplesNetwork-SwiftTests */,
+				D6FDF552221D7FE800219799 /* GHPeoplesNetwork-SwiftUITests */,
+				D6FDF564221D7FF600219799 /* GHPeoplesNetwork-OC */,
+				D6FDF57D221D7FF700219799 /* GHPeoplesNetwork-OCTests */,
+				D6FDF588221D7FF700219799 /* GHPeoplesNetwork-OCUITests */,
+				D6FDF511221D7FCC00219799 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D6FDF478221D5A8F00219799 /* Products */ = {
+		D6FDF511221D7FCC00219799 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D6FDF477221D5A8F00219799 /* GHPeoplesNetworkDemo.app */,
-				D6FDF494221D5AAC00219799 /* GHPeoplesNetwork-OC.app */,
-				D6FDF4AE221D5AB700219799 /* GHPeoplesNetwork-Swift.app */,
+				D6FDF510221D7FCC00219799 /* GHPeoplesNetworkDemo.app */,
+				D6FDF52D221D7FE600219799 /* GHPeoplesNetwork-Swift.app */,
+				D6FDF544221D7FE800219799 /* GHPeoplesNetwork-SwiftTests.xctest */,
+				D6FDF54F221D7FE800219799 /* GHPeoplesNetwork-SwiftUITests.xctest */,
+				D6FDF563221D7FF600219799 /* GHPeoplesNetwork-OC.app */,
+				D6FDF57A221D7FF700219799 /* GHPeoplesNetwork-OCTests.xctest */,
+				D6FDF585221D7FF700219799 /* GHPeoplesNetwork-OCUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D6FDF479221D5A8F00219799 /* GHPeoplesNetworkDemo */ = {
+		D6FDF512221D7FCC00219799 /* GHPeoplesNetworkDemo */ = {
 			isa = PBXGroup;
 			children = (
-				D6FDF47A221D5A8F00219799 /* AppDelegate.h */,
-				D6FDF47B221D5A8F00219799 /* AppDelegate.m */,
-				D6FDF47D221D5A8F00219799 /* ViewController.h */,
-				D6FDF47E221D5A8F00219799 /* ViewController.m */,
-				D6FDF480221D5A8F00219799 /* Main.storyboard */,
-				D6FDF483221D5A9000219799 /* Assets.xcassets */,
-				D6FDF485221D5A9000219799 /* LaunchScreen.storyboard */,
-				D6FDF488221D5A9000219799 /* Info.plist */,
-				D6FDF489221D5A9000219799 /* main.m */,
+				D6FDF513221D7FCC00219799 /* AppDelegate.h */,
+				D6FDF514221D7FCC00219799 /* AppDelegate.m */,
+				D6FDF516221D7FCC00219799 /* ViewController.h */,
+				D6FDF517221D7FCC00219799 /* ViewController.m */,
+				D6FDF519221D7FCC00219799 /* Main.storyboard */,
+				D6FDF51C221D7FCD00219799 /* Assets.xcassets */,
+				D6FDF51E221D7FCD00219799 /* LaunchScreen.storyboard */,
+				D6FDF521221D7FCD00219799 /* Info.plist */,
+				D6FDF522221D7FCD00219799 /* main.m */,
 			);
 			path = GHPeoplesNetworkDemo;
 			sourceTree = "<group>";
 		};
-		D6FDF495221D5AAC00219799 /* GHPeoplesNetwork-OC */ = {
+		D6FDF52E221D7FE700219799 /* GHPeoplesNetwork-Swift */ = {
 			isa = PBXGroup;
 			children = (
-				D6FDF496221D5AAC00219799 /* AppDelegate.h */,
-				D6FDF497221D5AAC00219799 /* AppDelegate.m */,
-				D6FDF499221D5AAC00219799 /* ViewController.h */,
-				D6FDF49A221D5AAC00219799 /* ViewController.m */,
-				D6FDF49C221D5AAC00219799 /* Main.storyboard */,
-				D6FDF49F221D5AAD00219799 /* Assets.xcassets */,
-				D6FDF4A1221D5AAD00219799 /* LaunchScreen.storyboard */,
-				D6FDF4A4221D5AAD00219799 /* Info.plist */,
-				D6FDF4A5221D5AAD00219799 /* main.m */,
+				D6FDF52F221D7FE700219799 /* AppDelegate.h */,
+				D6FDF530221D7FE700219799 /* AppDelegate.m */,
+				D6FDF532221D7FE700219799 /* ViewController.h */,
+				D6FDF533221D7FE700219799 /* ViewController.m */,
+				D6FDF535221D7FE700219799 /* Main.storyboard */,
+				D6FDF538221D7FE700219799 /* Assets.xcassets */,
+				D6FDF53A221D7FE700219799 /* LaunchScreen.storyboard */,
+				D6FDF53D221D7FE700219799 /* Info.plist */,
+				D6FDF53E221D7FE700219799 /* main.m */,
+			);
+			path = "GHPeoplesNetwork-Swift";
+			sourceTree = "<group>";
+		};
+		D6FDF547221D7FE800219799 /* GHPeoplesNetwork-SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6FDF548221D7FE800219799 /* GHPeoplesNetwork_SwiftTests.m */,
+				D6FDF54A221D7FE800219799 /* Info.plist */,
+			);
+			path = "GHPeoplesNetwork-SwiftTests";
+			sourceTree = "<group>";
+		};
+		D6FDF552221D7FE800219799 /* GHPeoplesNetwork-SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6FDF553221D7FE800219799 /* GHPeoplesNetwork_SwiftUITests.m */,
+				D6FDF555221D7FE800219799 /* Info.plist */,
+			);
+			path = "GHPeoplesNetwork-SwiftUITests";
+			sourceTree = "<group>";
+		};
+		D6FDF564221D7FF600219799 /* GHPeoplesNetwork-OC */ = {
+			isa = PBXGroup;
+			children = (
+				D6FDF565221D7FF600219799 /* AppDelegate.h */,
+				D6FDF566221D7FF600219799 /* AppDelegate.m */,
+				D6FDF568221D7FF600219799 /* ViewController.h */,
+				D6FDF569221D7FF600219799 /* ViewController.m */,
+				D6FDF56B221D7FF600219799 /* Main.storyboard */,
+				D6FDF56E221D7FF700219799 /* Assets.xcassets */,
+				D6FDF570221D7FF700219799 /* LaunchScreen.storyboard */,
+				D6FDF573221D7FF700219799 /* Info.plist */,
+				D6FDF574221D7FF700219799 /* main.m */,
 			);
 			path = "GHPeoplesNetwork-OC";
 			sourceTree = "<group>";
 		};
-		D6FDF4AF221D5AB800219799 /* GHPeoplesNetwork-Swift */ = {
+		D6FDF57D221D7FF700219799 /* GHPeoplesNetwork-OCTests */ = {
 			isa = PBXGroup;
 			children = (
-				D6FDF4B0221D5AB800219799 /* AppDelegate.h */,
-				D6FDF4B1221D5AB800219799 /* AppDelegate.m */,
-				D6FDF4B3221D5AB800219799 /* ViewController.h */,
-				D6FDF4B4221D5AB800219799 /* ViewController.m */,
-				D6FDF4B6221D5AB800219799 /* Main.storyboard */,
-				D6FDF4B9221D5AB800219799 /* Assets.xcassets */,
-				D6FDF4BB221D5AB800219799 /* LaunchScreen.storyboard */,
-				D6FDF4BE221D5AB800219799 /* Info.plist */,
-				D6FDF4BF221D5AB800219799 /* main.m */,
+				D6FDF57E221D7FF700219799 /* GHPeoplesNetwork_OCTests.m */,
+				D6FDF580221D7FF700219799 /* Info.plist */,
 			);
-			path = "GHPeoplesNetwork-Swift";
+			path = "GHPeoplesNetwork-OCTests";
+			sourceTree = "<group>";
+		};
+		D6FDF588221D7FF700219799 /* GHPeoplesNetwork-OCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6FDF589221D7FF700219799 /* GHPeoplesNetwork_OCUITests.m */,
+				D6FDF58B221D7FF700219799 /* Info.plist */,
+			);
+			path = "GHPeoplesNetwork-OCUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D6FDF476221D5A8F00219799 /* GHPeoplesNetworkDemo */ = {
+		D6FDF50F221D7FCC00219799 /* GHPeoplesNetworkDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D6FDF48D221D5A9000219799 /* Build configuration list for PBXNativeTarget "GHPeoplesNetworkDemo" */;
+			buildConfigurationList = D6FDF526221D7FCD00219799 /* Build configuration list for PBXNativeTarget "GHPeoplesNetworkDemo" */;
 			buildPhases = (
-				D6FDF473221D5A8F00219799 /* Sources */,
-				D6FDF474221D5A8F00219799 /* Frameworks */,
-				D6FDF475221D5A8F00219799 /* Resources */,
+				D6FDF50C221D7FCC00219799 /* Sources */,
+				D6FDF50D221D7FCC00219799 /* Frameworks */,
+				D6FDF50E221D7FCC00219799 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -170,33 +289,16 @@
 			);
 			name = GHPeoplesNetworkDemo;
 			productName = GHPeoplesNetworkDemo;
-			productReference = D6FDF477221D5A8F00219799 /* GHPeoplesNetworkDemo.app */;
+			productReference = D6FDF510221D7FCC00219799 /* GHPeoplesNetworkDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D6FDF493221D5AAC00219799 /* GHPeoplesNetwork-OC */ = {
+		D6FDF52C221D7FE600219799 /* GHPeoplesNetwork-Swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D6FDF4A7221D5AAD00219799 /* Build configuration list for PBXNativeTarget "GHPeoplesNetwork-OC" */;
+			buildConfigurationList = D6FDF556221D7FE800219799 /* Build configuration list for PBXNativeTarget "GHPeoplesNetwork-Swift" */;
 			buildPhases = (
-				D6FDF490221D5AAC00219799 /* Sources */,
-				D6FDF491221D5AAC00219799 /* Frameworks */,
-				D6FDF492221D5AAC00219799 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "GHPeoplesNetwork-OC";
-			productName = "GHPeoplesNetwork-OC";
-			productReference = D6FDF494221D5AAC00219799 /* GHPeoplesNetwork-OC.app */;
-			productType = "com.apple.product-type.application";
-		};
-		D6FDF4AD221D5AB700219799 /* GHPeoplesNetwork-Swift */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D6FDF4C1221D5AB800219799 /* Build configuration list for PBXNativeTarget "GHPeoplesNetwork-Swift" */;
-			buildPhases = (
-				D6FDF4AA221D5AB700219799 /* Sources */,
-				D6FDF4AB221D5AB700219799 /* Frameworks */,
-				D6FDF4AC221D5AB700219799 /* Resources */,
+				D6FDF529221D7FE600219799 /* Sources */,
+				D6FDF52A221D7FE600219799 /* Frameworks */,
+				D6FDF52B221D7FE600219799 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -204,30 +306,135 @@
 			);
 			name = "GHPeoplesNetwork-Swift";
 			productName = "GHPeoplesNetwork-Swift";
-			productReference = D6FDF4AE221D5AB700219799 /* GHPeoplesNetwork-Swift.app */;
+			productReference = D6FDF52D221D7FE600219799 /* GHPeoplesNetwork-Swift.app */;
 			productType = "com.apple.product-type.application";
+		};
+		D6FDF543221D7FE800219799 /* GHPeoplesNetwork-SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6FDF559221D7FE800219799 /* Build configuration list for PBXNativeTarget "GHPeoplesNetwork-SwiftTests" */;
+			buildPhases = (
+				D6FDF540221D7FE800219799 /* Sources */,
+				D6FDF541221D7FE800219799 /* Frameworks */,
+				D6FDF542221D7FE800219799 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6FDF546221D7FE800219799 /* PBXTargetDependency */,
+			);
+			name = "GHPeoplesNetwork-SwiftTests";
+			productName = "GHPeoplesNetwork-SwiftTests";
+			productReference = D6FDF544221D7FE800219799 /* GHPeoplesNetwork-SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6FDF54E221D7FE800219799 /* GHPeoplesNetwork-SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6FDF55C221D7FE800219799 /* Build configuration list for PBXNativeTarget "GHPeoplesNetwork-SwiftUITests" */;
+			buildPhases = (
+				D6FDF54B221D7FE800219799 /* Sources */,
+				D6FDF54C221D7FE800219799 /* Frameworks */,
+				D6FDF54D221D7FE800219799 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6FDF551221D7FE800219799 /* PBXTargetDependency */,
+			);
+			name = "GHPeoplesNetwork-SwiftUITests";
+			productName = "GHPeoplesNetwork-SwiftUITests";
+			productReference = D6FDF54F221D7FE800219799 /* GHPeoplesNetwork-SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		D6FDF562221D7FF600219799 /* GHPeoplesNetwork-OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6FDF58C221D7FF700219799 /* Build configuration list for PBXNativeTarget "GHPeoplesNetwork-OC" */;
+			buildPhases = (
+				D6FDF55F221D7FF600219799 /* Sources */,
+				D6FDF560221D7FF600219799 /* Frameworks */,
+				D6FDF561221D7FF600219799 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GHPeoplesNetwork-OC";
+			productName = "GHPeoplesNetwork-OC";
+			productReference = D6FDF563221D7FF600219799 /* GHPeoplesNetwork-OC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6FDF579221D7FF700219799 /* GHPeoplesNetwork-OCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6FDF58F221D7FF700219799 /* Build configuration list for PBXNativeTarget "GHPeoplesNetwork-OCTests" */;
+			buildPhases = (
+				D6FDF576221D7FF700219799 /* Sources */,
+				D6FDF577221D7FF700219799 /* Frameworks */,
+				D6FDF578221D7FF700219799 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6FDF57C221D7FF700219799 /* PBXTargetDependency */,
+			);
+			name = "GHPeoplesNetwork-OCTests";
+			productName = "GHPeoplesNetwork-OCTests";
+			productReference = D6FDF57A221D7FF700219799 /* GHPeoplesNetwork-OCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6FDF584221D7FF700219799 /* GHPeoplesNetwork-OCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6FDF592221D7FF700219799 /* Build configuration list for PBXNativeTarget "GHPeoplesNetwork-OCUITests" */;
+			buildPhases = (
+				D6FDF581221D7FF700219799 /* Sources */,
+				D6FDF582221D7FF700219799 /* Frameworks */,
+				D6FDF583221D7FF700219799 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6FDF587221D7FF700219799 /* PBXTargetDependency */,
+			);
+			name = "GHPeoplesNetwork-OCUITests";
+			productName = "GHPeoplesNetwork-OCUITests";
+			productReference = D6FDF585221D7FF700219799 /* GHPeoplesNetwork-OCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D6FDF46F221D5A8F00219799 /* Project object */ = {
+		D6FDF508221D7FCC00219799 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = GHome;
 				TargetAttributes = {
-					D6FDF476221D5A8F00219799 = {
+					D6FDF50F221D7FCC00219799 = {
 						CreatedOnToolsVersion = 10.1;
 					};
-					D6FDF493221D5AAC00219799 = {
+					D6FDF52C221D7FE600219799 = {
 						CreatedOnToolsVersion = 10.1;
 					};
-					D6FDF4AD221D5AB700219799 = {
+					D6FDF543221D7FE800219799 = {
 						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D6FDF52C221D7FE600219799;
+					};
+					D6FDF54E221D7FE800219799 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D6FDF52C221D7FE600219799;
+					};
+					D6FDF562221D7FF600219799 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					D6FDF579221D7FF700219799 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D6FDF562221D7FF600219799;
+					};
+					D6FDF584221D7FF700219799 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D6FDF562221D7FF600219799;
 					};
 				};
 			};
-			buildConfigurationList = D6FDF472221D5A8F00219799 /* Build configuration list for PBXProject "GHPeoplesNetworkDemo" */;
+			buildConfigurationList = D6FDF50B221D7FCC00219799 /* Build configuration list for PBXProject "GHPeoplesNetworkDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -235,129 +442,216 @@
 				en,
 				Base,
 			);
-			mainGroup = D6FDF46E221D5A8F00219799;
-			productRefGroup = D6FDF478221D5A8F00219799 /* Products */;
+			mainGroup = D6FDF507221D7FCC00219799;
+			productRefGroup = D6FDF511221D7FCC00219799 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D6FDF476221D5A8F00219799 /* GHPeoplesNetworkDemo */,
-				D6FDF493221D5AAC00219799 /* GHPeoplesNetwork-OC */,
-				D6FDF4AD221D5AB700219799 /* GHPeoplesNetwork-Swift */,
+				D6FDF50F221D7FCC00219799 /* GHPeoplesNetworkDemo */,
+				D6FDF52C221D7FE600219799 /* GHPeoplesNetwork-Swift */,
+				D6FDF543221D7FE800219799 /* GHPeoplesNetwork-SwiftTests */,
+				D6FDF54E221D7FE800219799 /* GHPeoplesNetwork-SwiftUITests */,
+				D6FDF562221D7FF600219799 /* GHPeoplesNetwork-OC */,
+				D6FDF579221D7FF700219799 /* GHPeoplesNetwork-OCTests */,
+				D6FDF584221D7FF700219799 /* GHPeoplesNetwork-OCUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D6FDF475221D5A8F00219799 /* Resources */ = {
+		D6FDF50E221D7FCC00219799 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6FDF487221D5A9000219799 /* LaunchScreen.storyboard in Resources */,
-				D6FDF484221D5A9000219799 /* Assets.xcassets in Resources */,
-				D6FDF482221D5A8F00219799 /* Main.storyboard in Resources */,
+				D6FDF520221D7FCD00219799 /* LaunchScreen.storyboard in Resources */,
+				D6FDF51D221D7FCD00219799 /* Assets.xcassets in Resources */,
+				D6FDF51B221D7FCC00219799 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6FDF492221D5AAC00219799 /* Resources */ = {
+		D6FDF52B221D7FE600219799 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6FDF4A3221D5AAD00219799 /* LaunchScreen.storyboard in Resources */,
-				D6FDF4A0221D5AAD00219799 /* Assets.xcassets in Resources */,
-				D6FDF49E221D5AAC00219799 /* Main.storyboard in Resources */,
+				D6FDF53C221D7FE700219799 /* LaunchScreen.storyboard in Resources */,
+				D6FDF539221D7FE700219799 /* Assets.xcassets in Resources */,
+				D6FDF537221D7FE700219799 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6FDF4AC221D5AB700219799 /* Resources */ = {
+		D6FDF542221D7FE800219799 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6FDF4BD221D5AB800219799 /* LaunchScreen.storyboard in Resources */,
-				D6FDF4BA221D5AB800219799 /* Assets.xcassets in Resources */,
-				D6FDF4B8221D5AB800219799 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FDF54D221D7FE800219799 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FDF561221D7FF600219799 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6FDF572221D7FF700219799 /* LaunchScreen.storyboard in Resources */,
+				D6FDF56F221D7FF700219799 /* Assets.xcassets in Resources */,
+				D6FDF56D221D7FF600219799 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FDF578221D7FF700219799 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FDF583221D7FF700219799 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D6FDF473221D5A8F00219799 /* Sources */ = {
+		D6FDF50C221D7FCC00219799 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6FDF47F221D5A8F00219799 /* ViewController.m in Sources */,
-				D6FDF48A221D5A9000219799 /* main.m in Sources */,
-				D6FDF47C221D5A8F00219799 /* AppDelegate.m in Sources */,
+				D6FDF518221D7FCC00219799 /* ViewController.m in Sources */,
+				D6FDF523221D7FCD00219799 /* main.m in Sources */,
+				D6FDF515221D7FCC00219799 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6FDF490221D5AAC00219799 /* Sources */ = {
+		D6FDF529221D7FE600219799 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6FDF49B221D5AAC00219799 /* ViewController.m in Sources */,
-				D6FDF4A6221D5AAD00219799 /* main.m in Sources */,
-				D6FDF498221D5AAC00219799 /* AppDelegate.m in Sources */,
+				D6FDF534221D7FE700219799 /* ViewController.m in Sources */,
+				D6FDF53F221D7FE700219799 /* main.m in Sources */,
+				D6FDF531221D7FE700219799 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6FDF4AA221D5AB700219799 /* Sources */ = {
+		D6FDF540221D7FE800219799 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6FDF4B5221D5AB800219799 /* ViewController.m in Sources */,
-				D6FDF4C0221D5AB800219799 /* main.m in Sources */,
-				D6FDF4B2221D5AB800219799 /* AppDelegate.m in Sources */,
+				D6FDF549221D7FE800219799 /* GHPeoplesNetwork_SwiftTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FDF54B221D7FE800219799 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6FDF554221D7FE800219799 /* GHPeoplesNetwork_SwiftUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FDF55F221D7FF600219799 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6FDF56A221D7FF600219799 /* ViewController.m in Sources */,
+				D6FDF575221D7FF700219799 /* main.m in Sources */,
+				D6FDF567221D7FF600219799 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FDF576221D7FF700219799 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6FDF57F221D7FF700219799 /* GHPeoplesNetwork_OCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FDF581221D7FF700219799 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6FDF58A221D7FF700219799 /* GHPeoplesNetwork_OCUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		D6FDF546221D7FE800219799 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6FDF52C221D7FE600219799 /* GHPeoplesNetwork-Swift */;
+			targetProxy = D6FDF545221D7FE800219799 /* PBXContainerItemProxy */;
+		};
+		D6FDF551221D7FE800219799 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6FDF52C221D7FE600219799 /* GHPeoplesNetwork-Swift */;
+			targetProxy = D6FDF550221D7FE800219799 /* PBXContainerItemProxy */;
+		};
+		D6FDF57C221D7FF700219799 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6FDF562221D7FF600219799 /* GHPeoplesNetwork-OC */;
+			targetProxy = D6FDF57B221D7FF700219799 /* PBXContainerItemProxy */;
+		};
+		D6FDF587221D7FF700219799 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6FDF562221D7FF600219799 /* GHPeoplesNetwork-OC */;
+			targetProxy = D6FDF586221D7FF700219799 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
-		D6FDF480221D5A8F00219799 /* Main.storyboard */ = {
+		D6FDF519221D7FCC00219799 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D6FDF481221D5A8F00219799 /* Base */,
+				D6FDF51A221D7FCC00219799 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		D6FDF485221D5A9000219799 /* LaunchScreen.storyboard */ = {
+		D6FDF51E221D7FCD00219799 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D6FDF486221D5A9000219799 /* Base */,
+				D6FDF51F221D7FCD00219799 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		D6FDF49C221D5AAC00219799 /* Main.storyboard */ = {
+		D6FDF535221D7FE700219799 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D6FDF49D221D5AAC00219799 /* Base */,
+				D6FDF536221D7FE700219799 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		D6FDF4A1221D5AAD00219799 /* LaunchScreen.storyboard */ = {
+		D6FDF53A221D7FE700219799 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D6FDF4A2221D5AAD00219799 /* Base */,
+				D6FDF53B221D7FE700219799 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		D6FDF4B6221D5AB800219799 /* Main.storyboard */ = {
+		D6FDF56B221D7FF600219799 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D6FDF4B7221D5AB800219799 /* Base */,
+				D6FDF56C221D7FF600219799 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		D6FDF4BB221D5AB800219799 /* LaunchScreen.storyboard */ = {
+		D6FDF570221D7FF700219799 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D6FDF4BC221D5AB800219799 /* Base */,
+				D6FDF571221D7FF700219799 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -365,7 +659,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		D6FDF48B221D5A9000219799 /* Debug */ = {
+		D6FDF524221D7FCD00219799 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -424,7 +718,7 @@
 			};
 			name = Debug;
 		};
-		D6FDF48C221D5A9000219799 /* Release */ = {
+		D6FDF525221D7FCD00219799 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -477,7 +771,7 @@
 			};
 			name = Release;
 		};
-		D6FDF48E221D5A9000219799 /* Debug */ = {
+		D6FDF527221D7FCD00219799 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -493,7 +787,7 @@
 			};
 			name = Debug;
 		};
-		D6FDF48F221D5A9000219799 /* Release */ = {
+		D6FDF528221D7FCD00219799 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -509,7 +803,109 @@
 			};
 			name = Release;
 		};
-		D6FDF4A8221D5AAD00219799 /* Debug */ = {
+		D6FDF557221D7FE800219799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GHPeoplesNetwork-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GHome.GHPeoplesNetwork-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6FDF558221D7FE800219799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GHPeoplesNetwork-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GHome.GHPeoplesNetwork-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6FDF55A221D7FE800219799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GHPeoplesNetwork-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GHome.GHPeoplesNetwork-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GHPeoplesNetwork-Swift.app/GHPeoplesNetwork-Swift";
+			};
+			name = Debug;
+		};
+		D6FDF55B221D7FE800219799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GHPeoplesNetwork-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GHome.GHPeoplesNetwork-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GHPeoplesNetwork-Swift.app/GHPeoplesNetwork-Swift";
+			};
+			name = Release;
+		};
+		D6FDF55D221D7FE800219799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GHPeoplesNetwork-SwiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GHome.GHPeoplesNetwork-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GHPeoplesNetwork-Swift";
+			};
+			name = Debug;
+		};
+		D6FDF55E221D7FE800219799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GHPeoplesNetwork-SwiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GHome.GHPeoplesNetwork-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GHPeoplesNetwork-Swift";
+			};
+			name = Release;
+		};
+		D6FDF58D221D7FF700219799 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -525,7 +921,7 @@
 			};
 			name = Debug;
 		};
-		D6FDF4A9221D5AAD00219799 /* Release */ = {
+		D6FDF58E221D7FF700219799 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -541,78 +937,152 @@
 			};
 			name = Release;
 		};
-		D6FDF4C2221D5AB800219799 /* Debug */ = {
+		D6FDF590221D7FF700219799 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "GHPeoplesNetwork-Swift/Info.plist";
+				INFOPLIST_FILE = "GHPeoplesNetwork-OCTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "GHome.GHPeoplesNetwork-Swift";
+				PRODUCT_BUNDLE_IDENTIFIER = "GHome.GHPeoplesNetwork-OCTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GHPeoplesNetwork-OC.app/GHPeoplesNetwork-OC";
 			};
 			name = Debug;
 		};
-		D6FDF4C3221D5AB800219799 /* Release */ = {
+		D6FDF591221D7FF700219799 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "GHPeoplesNetwork-Swift/Info.plist";
+				INFOPLIST_FILE = "GHPeoplesNetwork-OCTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "GHome.GHPeoplesNetwork-Swift";
+				PRODUCT_BUNDLE_IDENTIFIER = "GHome.GHPeoplesNetwork-OCTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GHPeoplesNetwork-OC.app/GHPeoplesNetwork-OC";
+			};
+			name = Release;
+		};
+		D6FDF593221D7FF700219799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GHPeoplesNetwork-OCUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GHome.GHPeoplesNetwork-OCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GHPeoplesNetwork-OC";
+			};
+			name = Debug;
+		};
+		D6FDF594221D7FF700219799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GHPeoplesNetwork-OCUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GHome.GHPeoplesNetwork-OCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GHPeoplesNetwork-OC";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D6FDF472221D5A8F00219799 /* Build configuration list for PBXProject "GHPeoplesNetworkDemo" */ = {
+		D6FDF50B221D7FCC00219799 /* Build configuration list for PBXProject "GHPeoplesNetworkDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D6FDF48B221D5A9000219799 /* Debug */,
-				D6FDF48C221D5A9000219799 /* Release */,
+				D6FDF524221D7FCD00219799 /* Debug */,
+				D6FDF525221D7FCD00219799 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D6FDF48D221D5A9000219799 /* Build configuration list for PBXNativeTarget "GHPeoplesNetworkDemo" */ = {
+		D6FDF526221D7FCD00219799 /* Build configuration list for PBXNativeTarget "GHPeoplesNetworkDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D6FDF48E221D5A9000219799 /* Debug */,
-				D6FDF48F221D5A9000219799 /* Release */,
+				D6FDF527221D7FCD00219799 /* Debug */,
+				D6FDF528221D7FCD00219799 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D6FDF4A7221D5AAD00219799 /* Build configuration list for PBXNativeTarget "GHPeoplesNetwork-OC" */ = {
+		D6FDF556221D7FE800219799 /* Build configuration list for PBXNativeTarget "GHPeoplesNetwork-Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D6FDF4A8221D5AAD00219799 /* Debug */,
-				D6FDF4A9221D5AAD00219799 /* Release */,
+				D6FDF557221D7FE800219799 /* Debug */,
+				D6FDF558221D7FE800219799 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D6FDF4C1221D5AB800219799 /* Build configuration list for PBXNativeTarget "GHPeoplesNetwork-Swift" */ = {
+		D6FDF559221D7FE800219799 /* Build configuration list for PBXNativeTarget "GHPeoplesNetwork-SwiftTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D6FDF4C2221D5AB800219799 /* Debug */,
-				D6FDF4C3221D5AB800219799 /* Release */,
+				D6FDF55A221D7FE800219799 /* Debug */,
+				D6FDF55B221D7FE800219799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6FDF55C221D7FE800219799 /* Build configuration list for PBXNativeTarget "GHPeoplesNetwork-SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6FDF55D221D7FE800219799 /* Debug */,
+				D6FDF55E221D7FE800219799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6FDF58C221D7FF700219799 /* Build configuration list for PBXNativeTarget "GHPeoplesNetwork-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6FDF58D221D7FF700219799 /* Debug */,
+				D6FDF58E221D7FF700219799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6FDF58F221D7FF700219799 /* Build configuration list for PBXNativeTarget "GHPeoplesNetwork-OCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6FDF590221D7FF700219799 /* Debug */,
+				D6FDF591221D7FF700219799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6FDF592221D7FF700219799 /* Build configuration list for PBXNativeTarget "GHPeoplesNetwork-OCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6FDF593221D7FF700219799 /* Debug */,
+				D6FDF594221D7FF700219799 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D6FDF46F221D5A8F00219799 /* Project object */;
+	rootObject = D6FDF508221D7FCC00219799 /* Project object */;
 }

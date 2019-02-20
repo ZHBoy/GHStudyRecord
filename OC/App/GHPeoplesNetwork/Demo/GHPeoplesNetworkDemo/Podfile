@@ -1,0 +1,46 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'GHPeoplesNetwork-OC' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for GHPeoplesNetwork-OC
+
+  target 'GHPeoplesNetwork-OCTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'GHPeoplesNetwork-OCUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'GHPeoplesNetwork-Swift' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for GHPeoplesNetwork-Swift
+
+  target 'GHPeoplesNetwork-SwiftTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'GHPeoplesNetwork-SwiftUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'GHPeoplesNetworkDemo' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for GHPeoplesNetworkDemo
+
+end
