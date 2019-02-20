@@ -1,19 +1,24 @@
 ## 百姓生活
-目录
 
 [环境搭建](#环境搭建)
 
-[环境搭建](#搭建项目)
+[搭建项目](#搭建项目)
+
+[底部导航条制作](#底部导航条制作)
+
+[底部导航栏切换效果](#底部导航栏切换效果)
+
+[Dio基础_引入和简单的Get请求](#Dio基础_引入和简单的Get请求)
 
 
-#### 01 环境搭建
-#### 02 搭建项目
+### 01 环境搭建
+### 02 搭建项目
 快捷键 
 
 * stful 动态组件
 * stless 静态组件
 
-#### 03 底部导航条制作
+### 03 底部导航条制作
 
 风格
 
@@ -25,7 +30,7 @@
 
 底部item `BottomNavigationBarItem`
 
-#### 04 底部导航栏切换效果
+### 04 底部导航栏切换效果
 
 初始化方法
 
@@ -51,7 +56,7 @@
 body: currentPage,
 
 ![Untitled.gif](https://upload-images.jianshu.io/upload_images/1419035-abeba31150c47258.gif?imageMogr2/auto-orient/strip)
-#### 05 Dio基础_引入和简单的Get请求
+### 05 Dio基础_引入和简单的Get请求
 
 引入dio  `dio: ^2.0.9`
 
