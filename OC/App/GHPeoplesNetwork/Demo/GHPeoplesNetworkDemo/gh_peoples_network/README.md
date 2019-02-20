@@ -13,7 +13,7 @@
 
 * material 立体
 	
-* cupertino` 仿iOS
+* cupertino 仿iOS
 
 创建数组   `final List bottomTabs = []`
 
@@ -44,6 +44,7 @@
 
 body: currentPage,
 
+![Untitled.gif](https://upload-images.jianshu.io/upload_images/1419035-abeba31150c47258.gif?imageMogr2/auto-orient/strip)
 #### 05 Dio基础_引入和简单的Get请求
 
 引入dio  `dio: ^2.0.9`
