@@ -96,8 +96,6 @@ flutter -h
 flutter doctor
 ```
 
--
-
 ##### 安装Android Studio
 
 首先运行`java`环境 一直下一部直到完成
