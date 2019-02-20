@@ -12,10 +12,28 @@
 
 [05Dio基础_引入和简单的Get请求](#05Dio基础_引入和简单的Get请求)
 
+[06.Dio基础_Get请求和动态组件协作](#06.Dio基础_Get请求和动态组件协作)
+
+[常用的快捷键](#常用的快捷键)
+
+[代码规范](#代码规范)
+
+[资源](#资源)
+
+[Dart语法](#Dart语法)
+
+[TextWidget](#TextWidget)
+
+[Container](#Container)
+
 
 ### 01环境搭建
 
 >首先感谢`技术胖`大神视频博客讲解,笔记是根据技术胖博客和视频整理而成,你也可以直接浏览`技术胖`[技术博客](http://jspang.com/post/flutter1.html)学习,再次感谢!
+
+此教程为mac环境搭建
+
+[windows搭建环境教程点此处](https://jspang.com/post/flutter1.html)
 
 ##### 准备
 
@@ -137,11 +155,14 @@ pod setup
 
 `path` 快速导入文件路径
 ### 02搭建项目
+本节设计到的wiget
 
-快捷键 
+>StatefulWidget具有可变状态的窗口部件，也就是你在使用应用的时候就可以随时变化，比如我们常见的进度条，随着进度不断变化,调用的快捷键`stful`
 
-* stful 动态组件
-* stless 静态组件
+>StatelessWidget不可变状态窗口部件，也就是你在使用时不可以改变，比如固定的文字（写上后就在那里了，死也不会变了,调用的快捷键`stless`
+
+
+
 
 ### 03底部导航条制作
 
@@ -186,3 +207,106 @@ body: currentPage,
 引入dio  `dio: ^2.0.9`
 
 测试url `https://www.easy-mock.com/mock/5c60131a4bed3a6342711498/baixing/dabaojian?name=大胸美女`
+
+
+### 06.Dio基础_Get请求和动态组件协作
+
+### 常用的快捷键
+运行项目 `flutter run`
+
+创建项目 `flutter create xxx`
+
+在vscode中的命令行模式下
+
+r 键：点击后热加载，也就算是重新加载吧。
+
+p 键：显示网格，这个可以很好的掌握布局情况，工作中很有用。
+
+o 键：切换android和ios的预览模式。
+
+q 键：退出调试预览模式。
+
+### 代码规范
+flutetr严格区分大小写,项目名称必须是小写
+
+### 资源
+
+[flutter插件列表](https://github.com/Solido/awesome-flutter)
+
+### Dart语法
+
+
+---
+### TextWidget
+
+>TextAlign属性就是文本的对齐方式，
+>>center: 文本以居中形式对齐,这个也算比较常用的了。<br/>
+>>left:左对齐，经常使用，让文本居左进行对齐，效果和start一样。<br/>
+>>right :右对齐，使用频率也不算高。<br/>
+>>start:以开始位置进行对齐，类似于左对齐。<br/>
+>>end: 以为本结尾处进行对齐，不常用。有点类似右对齐.<br/>
+
+```
+child:Text(
+  'Hello JSPang  ,非常喜欢前端，并且愿意为此奋斗一生。我希望可以出1000集免费教程。',
+   textAlign:TextAlign.left,
+)
+
+```
+
+
+>maxLines属性就是设置最多显示的行数.
+
+```
+child:Text(
+  'Hello JSPang  ,非常喜欢前端，并且愿意为此奋斗一生。我希望可以出1000集免费教程。',
+  textAlign:TextAlign.left,
+  maxLines: 1,
+)
+```
+
+>overflow属性属性是用来设置文本溢出时.
+>>clip：直接切断，剩下的文字就没有了，感觉不太友好，体验性不好。
+>>ellipsis:在后边显示省略号，体验性较好，这个在工作中经常使用。
+>>fade: 溢出的部分会进行一个渐变消失的效果，当然是上线的渐变，不是左右的哦。
+
+### Container
+>Alignment属性这个属性针对的是Container内child的对齐方式，也就是容器子内容的对齐方式，并不是容器本身的对齐方式
+
+```
+bottomCenter:下部居中对齐
+botomLeft: 下部左对齐。
+bottomRight：下部右对齐。
+center：纵横双向居中对齐。
+centerLeft：纵向居中横向居左对齐。
+centerRight：纵向居中横向居右对齐。
+topLeft：顶部左侧对齐。
+topCenter：顶部居中对齐。
+topRight： 顶部居左对齐。
+
+```
+
+>设置宽、高和颜色属性设置宽、高和颜色属性是相对容易的，只要在属性名称后面加入浮点型数字就可以了，比如要设置宽是500，高是400，颜色为亮蓝色。代码如下
+
+```
+child:Container(
+  child:new Text('Hello JSPang',style: TextStyle(fontSize: 40.0),),
+  alignment: Alignment.center,
+  width:500.0,
+  height:400.0,
+  color: Colors.lightBlue,
+),
+```
+>padding属性padding的属性就是一个内边距，它和你使用的前端技术CSS里的padding表现形式一样，指的是Container边缘和child内容的距离
+
+```
+child:Container(
+  child:new Text('Hello JSPang',style: TextStyle(fontSize: 40.0),),
+  alignment: Alignment.topLeft,
+  width:500.0,
+  height:400.0,
+  color: Colors.lightBlue,
+  padding:const EdgeInsets.all(10.0),
+),
+```
+
