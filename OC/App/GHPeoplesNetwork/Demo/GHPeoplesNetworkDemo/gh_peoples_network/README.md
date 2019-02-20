@@ -19,3 +19,25 @@
 
 底部item `BottomNavigationBarItem`
 
+#### 04 底部导航栏切换效果
+
+初始化方法
+
+```
+  @override
+  void initState() {
+    super.initState();
+    currentPage =tabBodies[currentIndex];
+  }
+```
+
+点击事件
+
+```
+   onTap: (index) {
+          setState(() {
+            currentIndex = index;
+            currentPage = tabBodies[currentIndex];
+          });
+   },
+```
