@@ -230,6 +230,7 @@ q 键：退出调试预览模式。
 flutetr严格区分大小写,项目名称必须是小写
 
 ### 资源
+[黑马两小时掌握Flutter移动App开发](https://pan.baidu.com/s/1NNSLfbKeRQ_fnU4Uisfldw) `提取码qfwe`
 
 [flutter插件列表](https://github.com/Solido/awesome-flutter)
 
