@@ -1,16 +1,21 @@
-# gh_peoples_network
+## gh_peoples_network
 
-A new Flutter project.
+#### 01 环境搭建
+#### 02 搭建项目
+快捷键 
 
-## Getting Started
+* stful 动态组件
+* stless 静态组件
 
-This project is a starting point for a Flutter application.
+#### 03 底部导航条制作
 
-A few resources to get you started if this is your first Flutter project:
+风格
 
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
+* material 立体
+	
+* cupertino` 仿iOS
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+创建数组   `final List bottomTabs = []`
+
+底部item `BottomNavigationBarItem`
+
