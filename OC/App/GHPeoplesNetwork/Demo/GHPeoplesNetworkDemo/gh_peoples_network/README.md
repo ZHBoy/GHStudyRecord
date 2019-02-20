@@ -1,4 +1,4 @@
-## gh_peoples_network
+## 百姓生活
 
 #### 01 环境搭建
 #### 02 搭建项目
@@ -41,3 +41,11 @@
           });
    },
 ```
+
+body: currentPage,
+
+#### 05 Dio基础_引入和简单的Get请求
+
+引入dio  `dio: ^2.0.9`
+
+测试url `https://www.easy-mock.com/mock/5c60131a4bed3a6342711498/baixing/dabaojian?name=大胸美女`
