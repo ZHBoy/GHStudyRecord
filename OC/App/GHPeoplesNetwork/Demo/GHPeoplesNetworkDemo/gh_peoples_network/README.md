@@ -170,9 +170,9 @@ pod setup
 
 风格
 
-* material 立体 包含 `material.dart`
+* Material Design 是由Google推出的全新设计语言，这种设计语言是为手机、平板电脑、台式机和其他平台提供一致，更广泛的外观和感觉。我喜欢称它为纸墨设计。Material Design 风格是一种非常有质感的设计风格，并会提供一些默认的交互动画 包含 `material.dart`
 	
-* cupertino 仿iOS 包含`cupertino.dart`
+* cupertino风格：即IOS风格组件，它重现了很多经典的有IOS特性的交互和界面风格，让适用于IOS的人感觉亲切和友好包含`cupertino.dart`
 
 创建数组  `final List bottomTabs = []`
 
@@ -238,7 +238,7 @@ flutetr严格区分大小写,项目名称必须是小写
 
 ### Dart语法
 
-
+[中文文档](https://www.kancloud.cn/marswill/dark2_document#/dashboard)
 ---
 ### Widget
 
